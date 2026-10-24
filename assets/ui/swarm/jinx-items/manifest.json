@@ -1,0 +1,278 @@
+{
+  "weapon_uwu_blaster": {
+    "index": 100,
+    "path": "res://assets/ui/swarm/jinx-items/uwu-painted-icon.res"
+  },
+  "weapon_ani_mines": {
+    "index": 101,
+    "path": "res://assets/ui/swarm/jinx-items/weapon_ani_mines-painted.res"
+  },
+  "weapon_anti_shark": {
+    "index": 102,
+    "path": "res://assets/ui/swarm/jinx-items/weapon_anti_shark-painted.res"
+  },
+  "weapon_crossbow": {
+    "index": 103,
+    "path": "res://assets/ui/swarm/jinx-items/weapon_crossbow-painted.res"
+  },
+  "weapon_blade_o_rang": {
+    "index": 104,
+    "path": "res://assets/ui/swarm/jinx-items/weapon_blade_o_rang-painted.res"
+  },
+  "weapon_mega_blast": {
+    "index": 105,
+    "path": "res://assets/ui/swarm/jinx-items/weapon_mega_blast-painted.res"
+  },
+  "weapon_slicers": {
+    "index": 106,
+    "path": "res://assets/ui/swarm/jinx-items/schnitzel-painted-icon.res"
+  },
+  "weapon_batblades": {
+    "index": 107,
+    "path": "res://assets/ui/swarm/jinx-items/weapon_batblades-painted.res"
+  },
+  "weapon_transit": {
+    "index": 108,
+    "path": "res://assets/ui/swarm/jinx-items/weapon_transit-painted.res"
+  },
+  "weapon_gatling": {
+    "index": 109,
+    "path": "res://assets/ui/swarm/jinx-items/gatling-painted-icon.res"
+  },
+  "weapon_iceblast": {
+    "index": 110,
+    "path": "res://assets/ui/swarm/jinx-items/weapon_iceblast-painted.res"
+  },
+  "weapon_lioness": {
+    "index": 111,
+    "path": "res://assets/ui/swarm/jinx-items/weapon_lioness-painted.res"
+  },
+  "weapon_paw_poison": {
+    "index": 112,
+    "path": "res://assets/ui/swarm/jinx-items/weapon_paw_poison-painted.res"
+  },
+  "weapon_radiant_field": {
+    "index": 113,
+    "path": "res://assets/ui/swarm/jinx-items/weapon_radiant_field-painted.res"
+  },
+  "weapon_shortbow": {
+    "index": 114,
+    "path": "res://assets/ui/swarm/jinx-items/weapon_shortbow-painted.res"
+  },
+  "weapon_statikk": {
+    "index": 115,
+    "path": "res://assets/ui/swarm/jinx-items/weapon_statikk-painted.res"
+  },
+  "weapon_tibbers": {
+    "index": 116,
+    "path": "res://assets/ui/swarm/jinx-items/weapon_tibbers-painted.res"
+  },
+  "weapon_annihilator": {
+    "index": 117,
+    "path": "res://assets/ui/swarm/jinx-items/weapon_annihilator-painted.res"
+  },
+  "weapon_vortex_glove": {
+    "index": 118,
+    "path": "res://assets/ui/swarm/jinx-items/weapon_vortex_glove-painted.res"
+  },
+  "weapon_yuumibot": {
+    "index": 119,
+    "path": "res://assets/ui/swarm/jinx-items/weapon_yuumibot-painted.res"
+  },
+  "weapon_meow_meow": {
+    "index": 120,
+    "path": "res://assets/ui/swarm/jinx-items/jinx-signature-icon.res"
+  },
+  "max_health": {
+    "index": 121,
+    "path": "res://assets/ui/swarm/jinx-items/max_health-painted.res"
+  },
+  "armor": {
+    "index": 122,
+    "path": "res://assets/ui/swarm/jinx-items/armor-painted.res"
+  },
+  "health_regen": {
+    "index": 123,
+    "path": "res://assets/ui/swarm/jinx-items/health_regen-painted.res"
+  },
+  "movement_speed": {
+    "index": 124,
+    "path": "res://assets/ui/swarm/jinx-items/movement_speed-painted.res"
+  },
+  "crit_chance": {
+    "index": 125,
+    "path": "res://assets/ui/swarm/jinx-items/crit_chance-painted.res"
+  },
+  "damage": {
+    "index": 126,
+    "path": "res://assets/ui/swarm/jinx-items/damage-painted.res"
+  },
+  "ability_haste": {
+    "index": 127,
+    "path": "res://assets/ui/swarm/jinx-items/ability_haste-painted.res"
+  },
+  "duration": {
+    "index": 128,
+    "path": "res://assets/ui/swarm/jinx-items/duration-painted.res"
+  },
+  "area_size": {
+    "index": 129,
+    "path": "res://assets/ui/swarm/jinx-items/area_size-painted.res"
+  },
+  "projectile_count": {
+    "index": 130,
+    "path": "res://assets/ui/swarm/jinx-items/projectile_count-painted.res"
+  },
+  "exp_gain": {
+    "index": 131,
+    "path": "res://assets/ui/swarm/jinx-items/exp_gain-painted.res"
+  },
+  "pickup_radius": {
+    "index": 132,
+    "path": "res://assets/ui/swarm/jinx-items/pickup_radius-painted.res"
+  },
+  "augment_armor_up": {
+    "index": 133,
+    "path": "res://assets/ui/swarm/jinx-items/augment_armor_up-painted.res"
+  },
+  "augment_bite_sized": {
+    "index": 134,
+    "path": "res://assets/ui/swarm/jinx-items/augment_bite_sized-painted.res"
+  },
+  "augment_bullet_mania": {
+    "index": 135,
+    "path": "res://assets/ui/swarm/jinx-items/augment_bullet_mania-painted.res"
+  },
+  "augment_card_collector": {
+    "index": 136,
+    "path": "res://assets/ui/swarm/jinx-items/augment_card_collector-painted.res"
+  },
+  "augment_celebration": {
+    "index": 137,
+    "path": "res://assets/ui/swarm/jinx-items/augment_celebration-painted.res"
+  },
+  "augment_circle_of_stats": {
+    "index": 138,
+    "path": "res://assets/ui/swarm/jinx-items/augment_circle_of_stats-painted.res"
+  },
+  "augment_critical_expansion": {
+    "index": 139,
+    "path": "res://assets/ui/swarm/jinx-items/augment_critical_expansion-painted.res"
+  },
+  "augment_cross_country": {
+    "index": 140,
+    "path": "res://assets/ui/swarm/jinx-items/augment_cross_country-painted.res"
+  },
+  "augment_death_and_taxes": {
+    "index": 141,
+    "path": "res://assets/ui/swarm/jinx-items/augment_death_and_taxes-painted.res"
+  },
+  "augment_ebb_and_flow": {
+    "index": 142,
+    "path": "res://assets/ui/swarm/jinx-items/augment_ebb_and_flow-painted.res"
+  },
+  "augment_elite_bomber": {
+    "index": 143,
+    "path": "res://assets/ui/swarm/jinx-items/augment_elite_bomber-painted.res"
+  },
+  "augment_emotional_support": {
+    "index": 144,
+    "path": "res://assets/ui/swarm/jinx-items/augment_emotional_support-painted.res"
+  },
+  "augment_experienced_fighter": {
+    "index": 145,
+    "path": "res://assets/ui/swarm/jinx-items/augment_experienced_fighter-painted.res"
+  },
+  "augment_gathering_speed": {
+    "index": 146,
+    "path": "res://assets/ui/swarm/jinx-items/augment_gathering_speed-painted.res"
+  },
+  "augment_glass_cannon": {
+    "index": 147,
+    "path": "res://assets/ui/swarm/jinx-items/augment_glass_cannon-painted.res"
+  },
+  "augment_heavy_hitter": {
+    "index": 148,
+    "path": "res://assets/ui/swarm/jinx-items/augment_heavy_hitter-painted.res"
+  },
+  "augment_hoarder": {
+    "index": 149,
+    "path": "res://assets/ui/swarm/jinx-items/augment_hoarder-painted.res"
+  },
+  "augment_immobile_immolation": {
+    "index": 150,
+    "path": "res://assets/ui/swarm/jinx-items/augment_immobile_immolation-painted.res"
+  },
+  "augment_juggernaut": {
+    "index": 151,
+    "path": "res://assets/ui/swarm/jinx-items/augment_juggernaut-painted.res"
+  },
+  "augment_larger_than_life": {
+    "index": 152,
+    "path": "res://assets/ui/swarm/jinx-items/augment_larger_than_life-painted.res"
+  },
+  "augment_long_range": {
+    "index": 153,
+    "path": "res://assets/ui/swarm/jinx-items/augment_long_range-painted.res"
+  },
+  "augment_metabolic_overdrive": {
+    "index": 154,
+    "path": "res://assets/ui/swarm/jinx-items/augment_metabolic_overdrive-painted.res"
+  },
+  "augment_mission_critical": {
+    "index": 155,
+    "path": "res://assets/ui/swarm/jinx-items/augment_mission_critical-painted.res"
+  },
+  "augment_pescatarian": {
+    "index": 156,
+    "path": "res://assets/ui/swarm/jinx-items/augment_pescatarian-painted.res"
+  },
+  "augment_pick_me_up": {
+    "index": 157,
+    "path": "res://assets/ui/swarm/jinx-items/augment_pick_me_up-painted.res"
+  },
+  "augment_point_blank": {
+    "index": 158,
+    "path": "res://assets/ui/swarm/jinx-items/augment_point_blank-painted.res"
+  },
+  "augment_ramming_runner": {
+    "index": 159,
+    "path": "res://assets/ui/swarm/jinx-items/augment_ramming_runner-painted.res"
+  },
+  "augment_regenerative_tissue": {
+    "index": 160,
+    "path": "res://assets/ui/swarm/jinx-items/augment_regenerative_tissue-painted.res"
+  },
+  "augment_size_scrambler": {
+    "index": 161,
+    "path": "res://assets/ui/swarm/jinx-items/augment_size_scrambler-painted.res"
+  },
+  "augment_spray_and_pray": {
+    "index": 162,
+    "path": "res://assets/ui/swarm/jinx-items/augment_spray_and_pray-painted.res"
+  },
+  "augment_ultimate_speed_up": {
+    "index": 163,
+    "path": "res://assets/ui/swarm/jinx-items/augment_ultimate_speed_up-painted.res"
+  },
+  "augment_uptime_upgrade": {
+    "index": 164,
+    "path": "res://assets/ui/swarm/jinx-items/augment_uptime_upgrade-painted.res"
+  },
+  "augment_with_haste": {
+    "index": 165,
+    "path": "res://assets/ui/swarm/jinx-items/augment_with_haste-painted.res"
+  },
+  "jinx_e": {
+    "index": 166,
+    "path": "res://assets/ui/swarm/jinx-items/jinx-e-painted-icon.res"
+  },
+  "jinx_passive": {
+    "index": 167,
+    "path": "res://assets/ui/swarm/jinx-items/jinx_passive-painted.res"
+  },
+  "jinx_r": {
+    "index": 168,
+    "path": "res://assets/ui/swarm/jinx-items/jinx-ultimate-icon.res"
+  }
+}

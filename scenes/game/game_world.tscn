@@ -1,0 +1,27 @@
+[gd_scene load_steps=8 format=3 uid="uid://cgameworld001"]
+
+[ext_resource type="Script" path="res://scripts/game/game_world.gd" id="1_script"]
+[ext_resource type="PackedScene" path="res://scenes/ui/hud.tscn" id="2_hud"]
+[ext_resource type="PackedScene" path="res://scenes/ui/level_up_modal.tscn" id="3_levelup"]
+[ext_resource type="PackedScene" path="res://scenes/ui/pause_menu.tscn" id="4_pause"]
+[ext_resource type="PackedScene" path="res://scenes/ui/game_over_screen.tscn" id="5_gameover"]
+[ext_resource type="PackedScene" path="res://scenes/ui/debug_overlay.tscn" id="6_debug"]
+
+[node name="GameWorld" type="Node2D"]
+process_mode = 3
+script = ExtResource("1_script")
+
+[node name="MapContainer" type="Node2D" parent="."]
+process_mode = 1
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="HUD" parent="CanvasLayer" instance=ExtResource("2_hud")]
+
+[node name="LevelUpModal" parent="CanvasLayer" instance=ExtResource("3_levelup")]
+
+[node name="PauseMenu" parent="CanvasLayer" instance=ExtResource("4_pause")]
+
+[node name="GameOverScreen" parent="CanvasLayer" instance=ExtResource("5_gameover")]
+
+[node name="DebugOverlay" parent="CanvasLayer" instance=ExtResource("6_debug")]

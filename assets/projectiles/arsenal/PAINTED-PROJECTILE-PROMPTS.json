@@ -1,0 +1,23 @@
+{
+  "mode": "Built-in imagegen, transparent projectile sprites",
+  "assets": [
+    {
+      "id": "painted-boomerang",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-74febd32-0811-4d97-bdb7-98c3476b3022.png",
+      "destination": "assets/projectiles/arsenal/painted-boomerang.png",
+      "prompt": "Transparent production game projectile sprite for a polished hand-painted sci-fi fantasy action RPG: a single sharp crescent-shaped steel boomerang with polished gold fittings, purple glowing cutting edges and cyan hub, lying in the screen plane, tip toward RIGHT. Finished rich dimensional painted materials and strong clean silhouette. Entire object visible with 20 percent transparent margin. Isolated on a truly transparent background, no opaque vignette, no ground, no text, no border, no logo, not a sketch."
+    },
+    {
+      "id": "painted-batblade",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-3e37aff5-bc61-4be4-83ec-1ec5403104e8.png",
+      "destination": "assets/projectiles/arsenal/painted-batblade.png",
+      "prompt": "Transparent production game projectile sprite for a polished hand-painted sci-fi fantasy action RPG: a single symmetrical mechanical throwing blade shaped like bat wings, dark violet steel, bright silver sharpened edges, pink cyan central gem, facing RIGHT, flat top view. Finished rich dimensional painted materials and strong clean silhouette. Entire object visible with 20 percent transparent margin. Isolated on a truly transparent background, no opaque vignette, no ground, no text, no border, no logo, not a sketch."
+    },
+    {
+      "id": "painted-crescent",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-4b1a9c76-5b68-4caf-b5d0-05671ae0f7f8.png",
+      "destination": "assets/projectiles/arsenal/painted-crescent.png",
+      "prompt": "Transparent production game projectile sprite for a polished hand-painted sci-fi fantasy action RPG: a single golden crescent-shaped energy blade curving like a waxing moon, warm white luminous edge and short golden wisps, no ring, flying RIGHT, flat top view. Finished rich dimensional painted materials and strong clean silhouette. Entire object visible with 20 percent transparent margin. Isolated on a truly transparent background, no opaque vignette, no ground, no text, no border, no logo, not a sketch."
+    }
+  ]
+}

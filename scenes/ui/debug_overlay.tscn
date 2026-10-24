@@ -1,0 +1,77 @@
+[gd_scene load_steps=2 format=3 uid="uid://cdebugoverlay001"]
+
+[ext_resource type="Script" path="res://scripts/ui/debug_overlay.gd" id="1_script"]
+
+[node name="DebugOverlay" type="Control"]
+layout_mode = 3
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -340.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = 360.0
+grow_horizontal = 0
+script = ExtResource("1_script")
+
+[node name="Panel" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Title" type="Label" parent="Panel/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.8, 0.2, 1)
+theme_override_font_sizes/font_size = 18
+text = "DEBUG-PANEL (F1)"
+horizontal_alignment = 1
+
+[node name="FpsLabel" type="Label" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "FPS: 60 | Urviecher: 0"
+horizontal_alignment = 1
+
+[node name="GodModeButton" type="CheckButton" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "God Mode (Unverwundbar)"
+
+[node name="GridContainer" type="GridContainer" parent="Panel/VBoxContainer"]
+layout_mode = 2
+columns = 2
+
+[node name="AddExpButton" type="Button" parent="Panel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "+150 EXP"
+
+[node name="AddGoldButton" type="Button" parent="Panel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "+1.000 Gold"
+
+[node name="FastForwardButton" type="Button" parent="Panel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Zu 14:50 springen"
+
+[node name="SpawnBossButton" type="Button" parent="Panel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Boss spawnen"
+
+[node name="EvolveWeaponsButton" type="Button" parent="Panel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Waffen evolvieren"
+
+[node name="KillAllButton" type="Button" parent="Panel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Horde löschen"

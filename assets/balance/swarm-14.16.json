@@ -1,0 +1,1744 @@
+{
+  "reference_patch": "14.16",
+  "enemy_time_scaling_status": "Project tuning; original per-minute coefficients are not verified. Applied once at spawn, excluding map bosses.",
+  "enemy_time_scaling": [
+    {
+      "time": 0,
+      "hp": 1.0,
+      "damage": 1.0
+    },
+    {
+      "time": 180,
+      "hp": 1.4,
+      "damage": 1.15
+    },
+    {
+      "time": 360,
+      "hp": 2.2,
+      "damage": 1.35
+    },
+    {
+      "time": 600,
+      "hp": 3.6,
+      "damage": 1.65
+    },
+    {
+      "time": 900,
+      "hp": 5.5,
+      "damage": 2.0
+    }
+  ],
+  "sources": {
+    "jinx_signature": "https://leagueoflegends.fandom.com/wiki/Swarm_(League_of_Legends)/Jinx",
+    "jinx_passive": "https://www.lolswarm.gg/Champions/Jinx.php",
+    "fighter_hp_armor": "https://powerupgaming.co.uk/2024/10/22/lol-swarm-champion-tier-list/",
+    "progression_orbs": "https://lolswarm.gg/",
+    "system_passives": "https://wiki.leagueoflegends.com/en-us/Swarm",
+    "regen_units": "https://wiki.leagueoflegends.com/en-us/Health_regeneration",
+    "patch": "https://www.leagueoflegends.com/en-us/news/game-updates/patch-14-15-notes/",
+    "yasuo_passive": "https://leagueoflegends.fandom.com/wiki/Swarm_(League_of_Legends)/Yasuo",
+    "weapon_rework": "https://leagueoflegends.fandom.com/wiki/Swarm_(League_of_Legends)/Weapons",
+    "weapon_numeric_archive": "https://raw.communitydragon.org/14.16/game/data/maps/shipping/map33/map33.bin.json",
+    "jinx_numeric_archive": "https://raw.communitydragon.org/14.16/game/data/characters/strawberry_jinx/strawberry_jinx.bin.json"
+  },
+  "characters": {
+    "jankz": {
+      "max_health": 1000,
+      "armor": 0,
+      "health_regen": 0.0,
+      "movement_speed": 350.0,
+      "crit_chance": 0.05,
+      "ability_haste": 0.0,
+      "pickup_radius": 100.0,
+      "ability_e": {
+        "cooldown": 8,
+        "name": "Fischgräten-Festival",
+        "ref_name": "Fishbones!",
+        "desc": "Sechs Raketen in versetzten Paaren: links, Mitte, rechts zum Mauszeiger. Zusätzliche Projektile verteilen sich auf die drei Richtungen. Schaden pro Rakete: 55 + 6 pro Teamlevel nach Level 1.",
+        "unlock_level": 3
+      },
+      "ability_r": {
+        "cooldown": 50,
+        "name": "Super-Mega-Todesgurke",
+        "ref_name": "Super Mega Death Rocket!",
+        "desc": "Rakete zum Mauszeiger. Flächenexplosion mit wahrem Schaden, verstärkt durch fehlendes Gegnerleben.",
+        "unlock_level": 6
+      }
+    },
+    "seraföhn": {
+      "max_health": 1000,
+      "armor": 0,
+      "health_regen": 0.0,
+      "movement_speed": 350.0,
+      "crit_chance": 0.05,
+      "ability_haste": 0.0,
+      "pickup_radius": 100.0
+    },
+    "löwina": {
+      "max_health": 1000,
+      "armor": 25,
+      "health_regen": 0.0,
+      "movement_speed": 350.0,
+      "crit_chance": 0.05,
+      "ability_haste": 0.0,
+      "pickup_radius": 100.0
+    },
+    "illaupsi": {
+      "max_health": 1500,
+      "armor": 15,
+      "health_regen": 0.0,
+      "movement_speed": 350.0,
+      "crit_chance": 0.05,
+      "ability_haste": 0.0,
+      "pickup_radius": 100.0
+    },
+    "brioche": {
+      "max_health": 1200,
+      "armor": 15,
+      "health_regen": 0.0,
+      "movement_speed": 350.0,
+      "crit_chance": 0.05,
+      "ability_haste": 0.0,
+      "pickup_radius": 100.0
+    },
+    "yasüff": {
+      "max_health": 1000,
+      "armor": 10,
+      "health_regen": 0.0,
+      "movement_speed": 350.0,
+      "crit_chance": 0.05,
+      "ability_haste": 0.0,
+      "pickup_radius": 100.0
+    },
+    "rübenrambo": {
+      "max_health": 1000,
+      "armor": 20,
+      "health_regen": 0.0,
+      "movement_speed": 350.0,
+      "crit_chance": 0.05,
+      "ability_haste": 0.0,
+      "pickup_radius": 100.0
+    },
+    "auarora": {
+      "max_health": 1000,
+      "armor": 0,
+      "health_regen": 0.0,
+      "movement_speed": 350.0,
+      "crit_chance": 0.05,
+      "ability_haste": 0.0,
+      "pickup_radius": 100.0
+    },
+    "xayaya": {
+      "max_health": 1000,
+      "armor": 0,
+      "health_regen": 0.0,
+      "movement_speed": 350.0,
+      "crit_chance": 0.05,
+      "ability_haste": 0.0,
+      "pickup_radius": 100.0
+    }
+  },
+  "xp": {
+    "orb_values": [
+      1,
+      4,
+      20
+    ],
+    "early_level_costs": [
+      5,
+      10,
+      15,
+      20,
+      25
+    ],
+    "strict_threshold": true,
+    "late_curve_status": "Project continuation; complete original level table unavailable, do not label official."
+  },
+  "regen_period_seconds": 5.0,
+  "enemy_status": "Project archetypes calibrated for the clone; exact original per-species HP and drop probabilities could not be verified. Difficulty multipliers remain reference-backed.",
+  "enemies": {
+    "standard_grunt": {
+      "max_health": 100,
+      "damage": 25,
+      "exp_drop": 1,
+      "gold_drop": 0
+    },
+    "fast_runner": {
+      "max_health": 140,
+      "damage": 30,
+      "exp_drop": 1,
+      "gold_drop": 0
+    },
+    "heavy_tank": {
+      "max_health": 360,
+      "damage": 55,
+      "exp_drop": 4,
+      "gold_drop": 0
+    },
+    "ranged_spitter": {
+      "max_health": 100,
+      "damage": 35,
+      "exp_drop": 1,
+      "gold_drop": 0
+    },
+    "kamikaze_exploder": {
+      "max_health": 80,
+      "damage": 80,
+      "exp_drop": 1,
+      "gold_drop": 0
+    },
+    "aoe_bruiser": {
+      "max_health": 550,
+      "damage": 60,
+      "exp_drop": 4,
+      "gold_drop": 0
+    },
+    "support_buffer": {
+      "max_health": 180,
+      "damage": 20,
+      "exp_drop": 1,
+      "gold_drop": 0
+    },
+    "elite_variant": {
+      "exp_drop": 4
+    },
+    "mini_boss": {
+      "exp_drop": 20
+    },
+    "boss_reksai": {
+      "exp_drop": 20
+    },
+    "boss_briar": {
+      "exp_drop": 20
+    },
+    "boss_belveth": {
+      "exp_drop": 20
+    },
+    "boss_aatrox": {
+      "exp_drop": 20
+    }
+  },
+  "weapons": {
+    "weapon_meow_meow": {
+      "reference_units": true,
+      "reference_spell": "Strawberry_JinxAutoAttack",
+      "base_damage": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "evolution_damage": 20,
+      "base_projectiles": [
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "evolution_projectiles": 7,
+      "base_cooldown": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5
+      ],
+      "evolution_cooldown": 1.25,
+      "range": 1500,
+      "projectile_speed": 3500,
+      "projectile_width": 90,
+      "pierce": 1,
+      "evolution_pierce": 999,
+      "evolution_falloff": 0.4,
+      "burst_interval": 0.066,
+      "scales_area": false,
+      "scales_duration": false,
+      "scales_haste": true,
+      "scales_projectiles": true,
+      "can_crit": true,
+      "modifiers": [
+        "damage",
+        "haste",
+        "crit",
+        "projectiles"
+      ],
+      "description": "Gezielte Salve. Jede Kugel trifft das erste Ziel. Weiterentwicklung durchdringt mit 40 % Folgetrefferschaden."
+    },
+    "weapon_uwu_blaster": {
+      "reference_units": true,
+      "reference_spell": "Augment_Weapon_RapidShot",
+      "modifiers": [
+        "damage",
+        "haste",
+        "crit",
+        "projectiles"
+      ],
+      "base_damage": [
+        45.0,
+        50.0,
+        55.0,
+        60.0,
+        65.0
+      ],
+      "evolution_damage": 65.0,
+      "base_cooldown": [
+        1.0,
+        0.85,
+        0.7,
+        0.65,
+        0.5
+      ],
+      "evolution_cooldown": 0.25,
+      "base_projectiles": [
+        1.0,
+        1.0,
+        2.0,
+        2.0,
+        3.0
+      ],
+      "evolution_projectiles": 3.0,
+      "scales_haste": true,
+      "scales_duration": false,
+      "scales_projectiles": true,
+      "scales_area": false,
+      "can_crit": true,
+      "range": 1200,
+      "projectile_speed": 2000,
+      "projectile_width": 40,
+      "burst_interval": 0.033
+    },
+    "weapon_gatling": {
+      "reference_units": true,
+      "reference_spell": "Augment_Weapon_CorkiE",
+      "modifiers": [
+        "damage",
+        "haste",
+        "duration",
+        "area"
+      ],
+      "base_damage": [
+        15.0,
+        35.0,
+        55.0,
+        75.0,
+        95.0
+      ],
+      "evolution_damage": 115.0,
+      "base_cooldown": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "evolution_cooldown": 5.0,
+      "base_projectiles": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "evolution_projectiles": 1,
+      "scales_haste": true,
+      "scales_duration": true,
+      "scales_projectiles": false,
+      "scales_area": true,
+      "can_crit": false,
+      "base_radius": [
+        725.0,
+        775.0,
+        825.0,
+        875.0,
+        925.0
+      ],
+      "evolution_area_radius": 975.0,
+      "base_duration": [
+        8.0,
+        8.5,
+        9.0,
+        9.5,
+        10.0
+      ],
+      "evolution_duration": 10.0,
+      "base_range": [
+        725.0,
+        775.0,
+        825.0,
+        875.0,
+        925.0
+      ],
+      "evolution_range": 975,
+      "tick_interval": 0.25,
+      "cone_degrees": 28,
+      "slow_per_stack": 0.25,
+      "slow_duration": 4,
+      "stun_duration": 6
+    },
+    "weapon_slicers": {
+      "reference_units": true,
+      "reference_spell": "Augment_Weapon_HolyBauble",
+      "modifiers": [
+        "damage",
+        "haste",
+        "area",
+        "duration",
+        "projectiles"
+      ],
+      "base_damage": [
+        55.0,
+        55.0,
+        60.0,
+        60.0,
+        65.0
+      ],
+      "evolution_damage": 65.0,
+      "base_cooldown": [
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0
+      ],
+      "evolution_cooldown": 3.0,
+      "base_projectiles": [
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "evolution_projectiles": 6.0,
+      "scales_haste": true,
+      "scales_duration": true,
+      "scales_projectiles": true,
+      "scales_area": true,
+      "can_crit": false,
+      "base_duration": [
+        7.0,
+        8.0,
+        8.0,
+        9.0,
+        9.0
+      ],
+      "evolution_duration": 9.0,
+      "projectile_width": 100,
+      "orbit_radius": 200,
+      "evolution_projectile_width": 130,
+      "evolution_orbit_radius": 350,
+      "orbit_speed": -2.5,
+      "hit_lockout": 1.0,
+      "push_distance": 150,
+      "visual_size_multiplier": 1.5,
+      "evolution_visual_size_multiplier": 2.0
+    },
+    "weapon_radiant_field": {
+      "reference_units": true,
+      "reference_spell": "Augment_Weapon_HollowRadiance",
+      "modifiers": [
+        "damage",
+        "area",
+        "max_health"
+      ],
+      "base_damage": [
+        5.0,
+        15.0,
+        25.0,
+        35.0,
+        45.0
+      ],
+      "evolution_damage": 55.0,
+      "base_cooldown": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "evolution_cooldown": 0.5,
+      "base_projectiles": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "evolution_projectiles": 1,
+      "scales_haste": false,
+      "scales_duration": false,
+      "scales_projectiles": false,
+      "scales_area": true,
+      "can_crit": false,
+      "base_radius": [
+        220.0,
+        260.0,
+        275.0,
+        340.0,
+        380.0
+      ],
+      "evolution_area_radius": 385.0,
+      "tick_interval": 0.5,
+      "hp_ratio": 0.05
+    },
+    "weapon_transit": {
+      "reference_units": true,
+      "reference_spell": "Augment_Weapon_Train",
+      "modifiers": [
+        "damage",
+        "haste",
+        "crit",
+        "armor"
+      ],
+      "base_damage": [
+        125.0,
+        325.0,
+        525.0,
+        725.0,
+        925.0
+      ],
+      "evolution_damage": 925.0,
+      "base_cooldown": [
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        5.0
+      ],
+      "evolution_cooldown": 5.0,
+      "base_projectiles": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "evolution_projectiles": 1,
+      "scales_haste": true,
+      "scales_duration": false,
+      "scales_projectiles": false,
+      "scales_area": false,
+      "can_crit": true,
+      "range": 2750,
+      "projectile_speed": 850,
+      "projectile_width": 250
+    },
+    "weapon_tibbers": {
+      "reference_units": true,
+      "reference_spell": "Augment_Weapon_Tibbers",
+      "modifiers": [
+        "damage",
+        "haste",
+        "area",
+        "duration",
+        "movement"
+      ],
+      "base_damage": [
+        100.0,
+        180.0,
+        260.0,
+        340.0,
+        420.0
+      ],
+      "evolution_damage": 500.0,
+      "base_cooldown": [
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0
+      ],
+      "evolution_cooldown": 13.0,
+      "base_projectiles": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "evolution_projectiles": 1,
+      "scales_haste": true,
+      "scales_duration": true,
+      "scales_projectiles": false,
+      "scales_area": true,
+      "can_crit": false,
+      "base_radius": [
+        375.0,
+        375.0,
+        425.0,
+        425.0,
+        475.0
+      ],
+      "evolution_area_radius": 475.0,
+      "base_duration": [
+        20.0,
+        22.0,
+        24.0,
+        26.0,
+        28.0
+      ],
+      "evolution_duration": 30.0,
+      "range": 700,
+      "tick_interval": 0.5
+    },
+    "weapon_shield_slam": {
+      "base_damage": [
+        40,
+        75,
+        110,
+        145,
+        180
+      ],
+      "base_cooldown": [
+        2.75,
+        2.5,
+        2.25,
+        2,
+        1.75
+      ],
+      "evolution_damage": 180,
+      "evolution_cooldown": 1.5
+    },
+    "weapon_shortbow": {
+      "reference_units": true,
+      "reference_spell": "Augment_Weapon_FireStrike",
+      "modifiers": [
+        "damage",
+        "haste",
+        "area",
+        "duration",
+        "projectiles"
+      ],
+      "base_damage": [
+        40.0,
+        60.0,
+        80.0,
+        100.0,
+        120.0
+      ],
+      "evolution_damage": 120.0,
+      "base_cooldown": [
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ],
+      "evolution_cooldown": 8.0,
+      "base_projectiles": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "evolution_projectiles": 6.0,
+      "scales_haste": true,
+      "scales_duration": true,
+      "scales_projectiles": true,
+      "scales_area": true,
+      "can_crit": false,
+      "base_radius": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "evolution_area_radius": 200.0,
+      "base_duration": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "evolution_duration": 5.0,
+      "range": 1100,
+      "flight_time": 0.5,
+      "tick_interval": 0.5
+    },
+    "weapon_lioness": {
+      "reference_units": true,
+      "reference_spell": "Augment_Weapon_DianaQ",
+      "modifiers": [
+        "damage",
+        "haste",
+        "crit",
+        "projectiles"
+      ],
+      "base_damage": [
+        60.0,
+        95.0,
+        130.0,
+        165.0,
+        200.0
+      ],
+      "evolution_damage": 235.0,
+      "base_cooldown": [
+        6.0,
+        6.0,
+        4.5,
+        4.5,
+        3.0
+      ],
+      "evolution_cooldown": 3.0,
+      "base_projectiles": [
+        2.0,
+        3.0,
+        3.0,
+        4.0,
+        4.0
+      ],
+      "evolution_projectiles": 4.0,
+      "scales_haste": true,
+      "scales_duration": false,
+      "scales_projectiles": true,
+      "scales_area": false,
+      "can_crit": true,
+      "range": 900,
+      "evolution_range": 1250,
+      "projectile_speed": 2100,
+      "projectile_width": 70
+    },
+    "weapon_ani_mines": {
+      "reference_units": true,
+      "reference_spell": "Augment_Weapon_Mine_Wrapper",
+      "modifiers": [
+        "damage",
+        "haste",
+        "area",
+        "projectiles"
+      ],
+      "base_damage": [
+        60.0,
+        85.0,
+        110.0,
+        135.0,
+        160.0
+      ],
+      "evolution_damage": 160.0,
+      "base_cooldown": [
+        7.0,
+        6.0,
+        6.0,
+        5.0,
+        5.0
+      ],
+      "evolution_cooldown": 5.0,
+      "base_projectiles": [
+        3.0,
+        3.0,
+        4.0,
+        4.0,
+        5.0
+      ],
+      "evolution_projectiles": 5.0,
+      "scales_haste": true,
+      "scales_duration": false,
+      "scales_projectiles": true,
+      "scales_area": true,
+      "can_crit": false,
+      "base_radius": [
+        300.0,
+        350.0,
+        350.0,
+        400.0,
+        400.0
+      ],
+      "evolution_area_radius": 400.0,
+      "placement_range": 275,
+      "mine_delay": 0.5,
+      "secondary_damage": 70,
+      "secondary_radius": 300
+    },
+    "weapon_blade_o_rang": {
+      "reference_units": true,
+      "reference_spell": "Augment_Weapon_Boomerang",
+      "modifiers": [
+        "damage",
+        "haste",
+        "crit",
+        "projectiles"
+      ],
+      "base_damage": [
+        40.0,
+        50.0,
+        60.0,
+        70.0,
+        80.0
+      ],
+      "evolution_damage": 110.0,
+      "base_cooldown": [
+        6.0,
+        5.0,
+        5.0,
+        4.0,
+        4.0
+      ],
+      "evolution_cooldown": 4.0,
+      "base_projectiles": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "evolution_projectiles": 5.0,
+      "scales_haste": true,
+      "scales_duration": false,
+      "scales_projectiles": true,
+      "scales_area": false,
+      "can_crit": true,
+      "range": 800,
+      "projectile_speed": 2500,
+      "projectile_width": 100
+    },
+    "weapon_mega_blast": {
+      "reference_units": true,
+      "reference_spell": "Augment_Weapon_StarStrike",
+      "modifiers": [
+        "damage",
+        "haste",
+        "area",
+        "crit"
+      ],
+      "base_damage": [
+        120.0,
+        170.0,
+        220.0,
+        270.0,
+        320.0
+      ],
+      "evolution_damage": 370.0,
+      "base_cooldown": [
+        7.0,
+        7.0,
+        5.5,
+        5.5,
+        4.0
+      ],
+      "evolution_cooldown": 4.0,
+      "base_projectiles": [
+        2.0,
+        3.0,
+        3.0,
+        4.0,
+        4.0
+      ],
+      "evolution_projectiles": 5.0,
+      "scales_haste": true,
+      "scales_duration": false,
+      "scales_projectiles": false,
+      "scales_area": true,
+      "can_crit": true,
+      "base_radius": [
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0
+      ],
+      "evolution_area_radius": 180.0,
+      "range": 800,
+      "base_bonus_crit": [
+        0.1,
+        0.1,
+        0.2,
+        0.2,
+        0.3
+      ],
+      "evolution_bonus_crit": 0.3
+    },
+    "weapon_vortex_glove": {
+      "reference_units": true,
+      "reference_spell": "Augment_Weapon_CircleShot",
+      "modifiers": [
+        "damage",
+        "crit",
+        "projectiles"
+      ],
+      "base_damage": [
+        35.0,
+        40.0,
+        40.0,
+        45.0,
+        45.0
+      ],
+      "evolution_damage": 45.0,
+      "base_cooldown": [
+        0.35,
+        0.3,
+        0.3,
+        0.25,
+        0.25
+      ],
+      "evolution_cooldown": 0.25,
+      "base_projectiles": [
+        1.0,
+        1.0,
+        2.0,
+        2.0,
+        3.0
+      ],
+      "evolution_projectiles": 3.0,
+      "scales_haste": false,
+      "scales_duration": false,
+      "scales_projectiles": true,
+      "scales_area": false,
+      "can_crit": true,
+      "range": 1200,
+      "projectile_speed": 1500,
+      "projectile_width": 70,
+      "rotation_speed": 1
+    },
+    "weapon_annihilator": {
+      "reference_units": true,
+      "reference_spell": "Augment_Weapon_Nuke",
+      "modifiers": [
+        "damage",
+        "haste",
+        "area"
+      ],
+      "base_damage": [
+        1000.0,
+        1200.0,
+        1400.0,
+        1600.0,
+        1800.0
+      ],
+      "evolution_damage": 2000.0,
+      "base_cooldown": [
+        100.0,
+        90.0,
+        80.0,
+        70.0,
+        60.0
+      ],
+      "evolution_cooldown": 60.0,
+      "base_projectiles": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "evolution_projectiles": 1,
+      "scales_haste": true,
+      "scales_duration": false,
+      "scales_projectiles": false,
+      "scales_area": true,
+      "can_crit": false,
+      "base_radius": [
+        1700.0,
+        1700.0,
+        1700.0,
+        1700.0,
+        1700.0
+      ],
+      "evolution_area_radius": 1700.0,
+      "warmup": 3
+    },
+    "weapon_anti_shark": {
+      "reference_units": true,
+      "reference_spell": "Augment_Weapon_FireBomb",
+      "modifiers": [
+        "damage",
+        "haste",
+        "area"
+      ],
+      "base_damage": [
+        45.0,
+        50.0,
+        55.0,
+        60.0,
+        65.0
+      ],
+      "evolution_damage": 70.0,
+      "base_cooldown": [
+        6.0,
+        5.0,
+        4.0,
+        3.0,
+        2.0
+      ],
+      "evolution_cooldown": 2.0,
+      "base_projectiles": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "evolution_projectiles": 1,
+      "scales_haste": true,
+      "scales_duration": false,
+      "scales_projectiles": false,
+      "scales_area": true,
+      "can_crit": false,
+      "range": 750,
+      "projectile_speed": 1000,
+      "projectile_width": 12,
+      "base_bounces": [
+        3.0,
+        4.0,
+        4.0,
+        5.0,
+        5.0
+      ],
+      "evolution_bounces": 999,
+      "base_explosion_damage": [
+        50.0,
+        80.0,
+        110.0,
+        140.0,
+        170.0
+      ],
+      "evolution_explosion_damage": 200,
+      "area_radius": 400,
+      "bounce_range": 600
+    },
+    "weapon_crossbow": {
+      "reference_units": true,
+      "reference_spell": "Augment_Weapon_PierceShot",
+      "modifiers": [
+        "damage",
+        "haste",
+        "crit",
+        "projectiles"
+      ],
+      "base_damage": [
+        90.0,
+        110.0,
+        130.0,
+        150.0,
+        170.0
+      ],
+      "evolution_damage": 170.0,
+      "base_cooldown": [
+        2.5,
+        2.25,
+        2.25,
+        2.0,
+        2.0
+      ],
+      "evolution_cooldown": 2.0,
+      "base_projectiles": [
+        3.0,
+        3.0,
+        4.0,
+        4.0,
+        5.0
+      ],
+      "evolution_projectiles": 25.0,
+      "scales_haste": true,
+      "scales_duration": false,
+      "scales_projectiles": true,
+      "scales_area": false,
+      "can_crit": true,
+      "range": 1700,
+      "projectile_speed": 2000,
+      "projectile_width": 60,
+      "base_bonus_crit": [
+        0.1,
+        0.2,
+        0.2,
+        0.3,
+        0.3
+      ],
+      "evolution_bonus_crit": 0.3
+    },
+    "weapon_batblades": {
+      "reference_units": true,
+      "reference_spell": "Augment_Weapon_ScatterArrows",
+      "modifiers": [
+        "damage",
+        "haste",
+        "crit",
+        "projectiles"
+      ],
+      "base_damage": [
+        35.0,
+        55.0,
+        75.0,
+        95.0,
+        115.0
+      ],
+      "evolution_damage": 115.0,
+      "base_cooldown": [
+        3.0,
+        3.0,
+        2.25,
+        2.25,
+        1.5
+      ],
+      "evolution_cooldown": 1.5,
+      "base_projectiles": [
+        4.0,
+        5.0,
+        5.0,
+        6.0,
+        6.0
+      ],
+      "evolution_projectiles": 7.0,
+      "scales_haste": true,
+      "scales_duration": false,
+      "scales_projectiles": true,
+      "scales_area": false,
+      "can_crit": true,
+      "range": 2000,
+      "projectile_speed": 1800,
+      "projectile_width": 12
+    },
+    "weapon_iceblast": {
+      "reference_units": true,
+      "reference_spell": "Augment_Weapon_FrostNova",
+      "modifiers": [
+        "damage",
+        "haste",
+        "area",
+        "duration",
+        "armor"
+      ],
+      "base_damage": [
+        50.0,
+        85.0,
+        120.0,
+        155.0,
+        190.0
+      ],
+      "evolution_damage": 190.0,
+      "base_cooldown": [
+        18.0,
+        18.0,
+        17.0,
+        17.0,
+        16.0
+      ],
+      "evolution_cooldown": 16.0,
+      "base_projectiles": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "evolution_projectiles": 1,
+      "scales_haste": true,
+      "scales_duration": true,
+      "scales_projectiles": false,
+      "scales_area": true,
+      "can_crit": false,
+      "base_radius": [
+        600.0,
+        640.0,
+        680.0,
+        720.0,
+        760.0
+      ],
+      "evolution_area_radius": 800.0,
+      "base_duration": [
+        2.0,
+        3.0,
+        3.0,
+        4.0,
+        4.0
+      ],
+      "evolution_duration": 5.0,
+      "armor_ratio": 2.5,
+      "evolution_shield": 200,
+      "evolution_shield_hp_ratio": 0.2
+    },
+    "weapon_paw_poison": {
+      "reference_units": true,
+      "reference_spell": "Augment_Weapon_PoisonTrail",
+      "modifiers": [
+        "damage",
+        "area",
+        "duration",
+        "movement"
+      ],
+      "base_damage": [
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0
+      ],
+      "evolution_damage": 75.0,
+      "base_cooldown": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "evolution_cooldown": 0.0,
+      "base_projectiles": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "evolution_projectiles": 1,
+      "scales_haste": false,
+      "scales_duration": true,
+      "scales_projectiles": false,
+      "scales_area": true,
+      "can_crit": false,
+      "base_radius": [
+        150.0,
+        225.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "evolution_area_radius": 300.0,
+      "base_duration": [
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5
+      ],
+      "evolution_duration": 7.5,
+      "distance_required": 80,
+      "tick_interval": 0.25,
+      "damage_is_dps": true
+    },
+    "weapon_statikk": {
+      "reference_units": true,
+      "reference_spell": "Augment_Weapon_StatikkShiv",
+      "modifiers": [
+        "damage",
+        "haste",
+        "area",
+        "crit",
+        "duration"
+      ],
+      "base_damage": [
+        100.0,
+        190.0,
+        280.0,
+        370.0,
+        460.0
+      ],
+      "evolution_damage": 460.0,
+      "base_cooldown": [
+        5.5,
+        4.0,
+        4.0,
+        2.5,
+        2.5
+      ],
+      "evolution_cooldown": 2.5,
+      "base_projectiles": [
+        5.0,
+        5.0,
+        7.0,
+        7.0,
+        9.0
+      ],
+      "evolution_projectiles": 9.0,
+      "scales_haste": true,
+      "scales_duration": true,
+      "scales_projectiles": false,
+      "scales_area": true,
+      "can_crit": true,
+      "range": 1100,
+      "evolution_duration": 3,
+      "evolution_tick_damage": 80,
+      "tick_interval": 0.528
+    },
+    "weapon_yuumibot": {
+      "reference_units": true,
+      "reference_spell": "Augment_Weapon_TwinShadows",
+      "modifiers": [
+        "damage",
+        "haste",
+        "area",
+        "duration",
+        "pickup"
+      ],
+      "base_damage": [
+        80.0,
+        180.0,
+        280.0,
+        380.0,
+        480.0
+      ],
+      "evolution_damage": 580.0,
+      "base_cooldown": [
+        20.0,
+        20.0,
+        18.0,
+        18.0,
+        16.0
+      ],
+      "evolution_cooldown": 16.0,
+      "base_projectiles": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "evolution_projectiles": 1,
+      "scales_haste": true,
+      "scales_duration": true,
+      "scales_projectiles": false,
+      "scales_area": true,
+      "can_crit": false,
+      "base_radius": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "evolution_area_radius": 100.0,
+      "base_duration": [
+        10.0,
+        12.0,
+        12.0,
+        14.0,
+        14.0
+      ],
+      "evolution_duration": 14.0,
+      "range": 750,
+      "pickup_radius": 300,
+      "tick_interval": 0.5
+    }
+  },
+  "weapon_rework_status": "All 20 general weapons and Jinx numerics imported from archived 14.16 spell records. Server-script-only timings and geometry remain explicitly documented approximations.",
+  "jinx_abilities": {
+    "unit_scale": 0.2,
+    "e": {
+      "cooldown": 8,
+      "cast_time": 0.0,
+      "damage_level_1": 55,
+      "damage_per_level": 6,
+      "count": 6,
+      "shot_interval": 0.12,
+      "lane_gap": 0.08,
+      "pair_offset": 5.0,
+      "range": 2200,
+      "speed": 2880,
+      "width": 80,
+      "radius": 300,
+      "angle_degrees": 45,
+      "display_width": 55
+    },
+    "r": {
+      "cooldown": 50,
+      "cast_time": 0.5,
+      "damage_level_1": 500,
+      "damage_per_level": 50,
+      "missing_health_amplification": 2,
+      "range": 2000,
+      "speed": 4000,
+      "width": 280,
+      "radius": 600,
+      "damage_kind": "true",
+      "display_width": 105.6
+    },
+    "passive": {
+      "kills": 70,
+      "duration": 8,
+      "ability_haste": 150,
+      "movement_status": "Existing 35% decaying comfort tuning retained; archived MSBuff script application not available."
+    },
+    "tuning_status": "User-requested E tuning: six rockets, first immediate, 0.12s between shots plus 0.08s between lanes; second shots offset five world units and half a lane towards centre (middle pair towards right). Base E speed 2880, reduced 20% from 3600; range and per-rocket damage retained. Bonus projectiles distributed across lanes. R unchanged: speed 4000, 0.5s windup, 80% artwork. Pair geometry/timings/count are clone tuning, not verified official values."
+  },
+  "passives": {
+    "ability_haste": {
+      "levels": [
+        0.0,
+        10.0,
+        20.0,
+        30.0,
+        40.0,
+        50.0
+      ],
+      "max_level": 5
+    },
+    "area_size": {
+      "levels": [
+        0.0,
+        0.11,
+        0.22,
+        0.33,
+        0.44,
+        0.55
+      ],
+      "max_level": 5
+    },
+    "armor": {
+      "levels": [
+        0.0,
+        8.0,
+        16.0,
+        24.0,
+        32.0,
+        40.0
+      ],
+      "max_level": 5
+    },
+    "crit_chance": {
+      "levels": [
+        0.0,
+        0.08,
+        0.16,
+        0.24,
+        0.32,
+        0.4
+      ],
+      "max_level": 5
+    },
+    "damage": {
+      "levels": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5
+      ],
+      "max_level": 5
+    },
+    "duration": {
+      "levels": [
+        0.0,
+        0.12,
+        0.24,
+        0.36,
+        0.48,
+        0.6
+      ],
+      "max_level": 5
+    },
+    "exp_gain": {
+      "levels": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5
+      ],
+      "max_level": 5
+    },
+    "health_regen": {
+      "levels": [
+        0.0,
+        4.0,
+        8.0,
+        12.0,
+        16.0,
+        20.0
+      ],
+      "max_level": 5
+    },
+    "max_health": {
+      "levels": [
+        0.0,
+        150.0,
+        300.0,
+        450.0,
+        600.0,
+        750.0
+      ],
+      "max_level": 5
+    },
+    "movement_speed": {
+      "levels": [
+        0.0,
+        0.09,
+        0.18,
+        0.27,
+        0.36,
+        0.45
+      ],
+      "max_level": 5
+    },
+    "pickup_radius": {
+      "levels": [
+        0.0,
+        0.35,
+        0.7,
+        1.05,
+        1.4,
+        1.75
+      ],
+      "max_level": 5
+    },
+    "projectile_count": {
+      "levels": [
+        0.0,
+        1.0,
+        1.0,
+        2.0,
+        2.0,
+        3.0
+      ],
+      "max_level": 5
+    }
+  },
+  "augments": {
+    "augment_armor_up": {
+      "description": "Erlittener Schaden gewährt 8 s lang +5 Rüstung pro Stapel; bis zu 10 Stapel."
+    },
+    "augment_bite_sized": {
+      "description": "-20 % maximales Leben, +20 % Lauftempo und +36 Fähigkeitstempo; kleinere Figur."
+    },
+    "augment_bullet_mania": {
+      "description": "-15 % Schaden. Alle sechs Levelaufstiege nach Auswahl ein zusätzliches Projektil."
+    },
+    "augment_card_collector": {
+      "description": "+5 % Schaden pro Zugangskarte nach Auswahl dieses Augments."
+    },
+    "augment_celebration": {
+      "description": "Nach einem Levelaufstieg 8 s lang +50 % Schaden/Tempo, +60 % Fläche und +50 Fähigkeitstempo."
+    },
+    "augment_circle_of_stats": {
+      "description": "Wechselt alle 8 s zwischen Tempo, Fähigkeitstempo, Fläche, Projektilen und Regeneration."
+    },
+    "augment_critical_expansion": {
+      "description": "Kritische Treffer gewähren 5 s lang +1 % Fläche, bis zu 100 Stapel."
+    },
+    "augment_cross_country": {
+      "description": "Je 20.000 gelaufene Einheiten nach Auswahl +3 % Schaden, Leben und Fläche."
+    },
+    "augment_death_and_taxes": {
+      "description": "Getötete Gegner haben 2 % Chance auf eine Explosion und zusätzliche Goldbeute."
+    },
+    "augment_ebb_and_flow": {
+      "description": "Fähigkeitstempo steigt und fällt zyklisch zwischen -50 und +125."
+    },
+    "augment_elite_bomber": {
+      "description": "+30 % Schaden gegen Elite-Gegner. Besiegte Eliten hinterlassen eine verzögert explodierende Bombe."
+    },
+    "augment_emotional_support": {
+      "description": "+50 % Schaden für beschworene Begleiter einschließlich des Zugs."
+    },
+    "augment_experienced_fighter": {
+      "description": "+10 % Team-XP. Gesammelte XP-Kugeln gewähren stapelbare +2 % Schaden/Tempo für 4 s."
+    },
+    "augment_gathering_speed": {
+      "description": "-15 % Lauftempo; danach +3 % Tempo je weiterem Levelaufstieg."
+    },
+    "augment_glass_cannon": {
+      "description": "+40 % Schaden, aber -30 % maximales Leben."
+    },
+    "augment_heavy_hitter": {
+      "description": "+50 % Schaden, aber -30 Fähigkeitstempo."
+    },
+    "augment_hoarder": {
+      "description": "Gesammeltes Gold heilt jeweils 0,5 % des maximalen Lebens."
+    },
+    "augment_immobile_immolation": {
+      "description": "Alle 0,5 s Stillstand zunehmend Leben gegen +20 Fähigkeitstempo tauschen; Bewegung beendet den Bonus."
+    },
+    "augment_juggernaut": {
+      "description": "+10 Rüstung und +0,5 % Schaden pro Rüstungspunkt."
+    },
+    "augment_larger_than_life": {
+      "description": "+30 % maximales Leben, +30 Regeneration, -15 % Tempo; größere Figur."
+    },
+    "augment_long_range": {
+      "description": "Bis zu +30 % Schaden abhängig von der Entfernung zum Gegner."
+    },
+    "augment_metabolic_overdrive": {
+      "description": "-60 % maximales Leben; jede Sekunde 20 % des maximalen Lebens heilen."
+    },
+    "augment_mission_critical": {
+      "description": "+10 Prozentpunkte Krit-Chance und +25 Prozentpunkte Krit-Schaden (200 → 225 %); nichtkritische Treffer verursachen 20 % weniger Schaden."
+    },
+    "augment_pescatarian": {
+      "description": "Getötete Gegner haben 25 % Chance auf ein Heilpaket."
+    },
+    "augment_pick_me_up": {
+      "description": "Kein automatischer Sammelradius, +15 % XP. Alle 60 s XP und Gold auf der Karte anziehen."
+    },
+    "augment_point_blank": {
+      "description": "Bis zu +20 % Schaden, je näher der Gegner ist."
+    },
+    "augment_ramming_runner": {
+      "description": "+10 % Tempo. Zusätzliche Tempoänderungen gewähren oder entziehen proportional Schaden."
+    },
+    "augment_regenerative_tissue": {
+      "description": "Eingesammelte Heilpakete gewähren dauerhaft +5 Regeneration."
+    },
+    "augment_size_scrambler": {
+      "description": "Die Flächengröße schwankt zwischen -20 % und +60 %; kein zusätzlicher Schadensbonus."
+    },
+    "augment_spray_and_pray": {
+      "description": "+4 Projektile für unterstützte Waffen, aber -35 % Schaden."
+    },
+    "augment_ultimate_speed_up": {
+      "description": "+100 Fähigkeitstempo ausschließlich für die R-Fähigkeit."
+    },
+    "augment_uptime_upgrade": {
+      "description": "+60 % Dauer für dafür vorgesehene Waffen und Fähigkeiten."
+    },
+    "augment_with_haste": {
+      "description": "+1 % Lauftempo pro 2 Fähigkeitstempo."
+    }
+  },
+  "augment_reference_parameters": {
+    "Augment_Special_DimensionScrambler": {
+      "MaxAoEMult": 0.6,
+      "MinAoEMult": -0.2,
+      "Period": 16.0
+    },
+    "Augment_Special_EbbAndFlow": {
+      "MinAbilityHaste": -50.0,
+      "MaxAbilityHaste": 125.0,
+      "Period": 16.0
+    },
+    "Augment_Special_GatheringSpeed": {
+      "InitialPercentDecrease": 0.15,
+      "PercentIncreasePerLevel": 0.03
+    },
+    "Augment_Special_PickMeUp": {
+      "PickupRadiusDecrease": 1.0,
+      "Cooldown": 60.0,
+      "XPBonus": 0.15
+    },
+    "Augment_Special_MetabolicOverdrive": {
+      "RegenPercent": 0.2,
+      "HealthReductionPercent": 0.6
+    },
+    "Augment_Special_Celebration": {
+      "DamageAmount": 0.5,
+      "HasteAmount": 50.0,
+      "MoveSpeedAmount": 0.5,
+      "AreaSizeAmount": 0.6,
+      "BuffDuration": 8.0
+    },
+    "Augment_Special_FastHealer": {
+      "MaxHealthMultiplier": 0.005
+    },
+    "Augment_Special_PointBlank": {
+      "BonusDamagePercent": 0.2,
+      "MaxDamageRange": 200.0,
+      "MinDamageRange": 800.0
+    },
+    "Augment_Special_Hoarder": {
+      "MaxHealthMultiplier": 0.005
+    },
+    "Augment_Special_GlassCannon": {
+      "DamageIncreasePercent": 0.4,
+      "HealthReductionPercent": 0.3
+    },
+    "Augment_Special_CardCollector": {
+      "DamagePerCard": 0.05
+    },
+    "Augment_Special_SprayAndPray": {
+      "IncreasedProjectileCount": 4.0,
+      "DamageReductionPercent": 0.35
+    },
+    "Augment_Special_BiteSized": {
+      "SizeDecreasePercent": -0.3,
+      "MoveSpeedIncrease": 0.2,
+      "MaxHealthDecreasePercent": 0.2,
+      "AbilityHasteIncrease": 36.0
+    },
+    "Augment_Special_StealEssence": {
+      "ChanceToDropHeal": 0.25
+    },
+    "Augment_Special_ArmorUp": {
+      "ArmorPerStack": 5.0,
+      "Duration": 8.0,
+      "MaxStacks": 10.0
+    },
+    "Augment_Special_CriticalExpansion": {
+      "AreaSizePerStack": 0.01,
+      "BuffDuration": 5.0
+    },
+    "Augment_Special_LongRange": {
+      "BonusDamagePercent": 0.3,
+      "MaxDamageRange": 1600.0,
+      "MinDamageRange": 900.0
+    },
+    "Augment_Special_Death_and_Taxes": {
+      "ChanceToExplode": 2.0,
+      "ExplosionRadius": 200.0
+    },
+    "Augment_Special_UltimateHaste": {
+      "UltimateHaste": 100.0
+    },
+    "Augment_Special_Zookeeper": {
+      "DurationPerPet": 5.0,
+      "RegenPerPet": 2.0,
+      "PetShieldRange": 800.0,
+      "PetDamageIncrease": 0.5,
+      "HealthDecrease": 0.25
+    },
+    "Augment_Special_NoCrit": {
+      "DamageIncreasePercent": 1.125,
+      "DamageDecreasePercent": 0.2,
+      "CritBonusPercent": 0.1,
+      "CritIncreaseTT": 0.25
+    },
+    "Augment_Special_TimeNotDamage": {
+      "PickUpRadiusDecreasePercent": -0.5,
+      "DurationIncrease": 0.6,
+      "AOEDecreasePercent": -0.5
+    },
+    "Augment_Special_LongRoad": {
+      "UnitsPerUpgrade": 20000.0,
+      "DamagePerUpgrade": 0.03,
+      "MaxHealthPerUpgrade": 0.03,
+      "AreaSizePerUpgrade": 0.03
+    },
+    "Augment_Special_Juggernaut": {
+      "ArmorAmount": 10.0,
+      "DamagePerArmor": 0.005
+    },
+    "Augment_Special_RammingSpeed": {
+      "MovespeedPercent": 0.1
+    },
+    "Augment_Special_LargerThanLife": {
+      "SizeIncreasePercent": 0.3,
+      "MoveSpeedDecrease": 0.15,
+      "RegenIncrease": 6.0,
+      "MaxHealthIncreasePercent": 0.3
+    },
+    "Augment_Special_BulletMania": {
+      "DamageDecrease": 0.15,
+      "Projectiles": 1.0,
+      "LevelsPerUpgrade": 6.0
+    },
+    "Augment_Special_HeavyHitter": {
+      "AbilityHasteReduction": -30.0,
+      "DamageIncrease": 0.5
+    },
+    "Augment_Special_RageEngine": {
+      "HasteIncreasePerTick": 20.0,
+      "HealthReductionPoint": 60.0,
+      "HealthReductionIncreasePerTick": 1.0
+    },
+    "Augment_Special_WithHaste": {
+      "HastePerMS": 2.0
+    },
+    "Augment_Special_EliteBomber": {
+      "DamageIncrease": 0.3
+    },
+    "Augment_Special_XPFanatic": {
+      "XPIncrease": 0.1,
+      "DamageAndMSPerStack": 0.02,
+      "BuffDuration": 4.0
+    },
+    "Augment_Special_CircleOfStats": {
+      "MovespeedAmount": 0.3,
+      "HasteAmount": 40.0,
+      "ProjectileCountAmount": 3.0,
+      "AreaSizeAmount": 0.6,
+      "HealthRegenAmount": 40.0,
+      "BuffDuration": 8.0
+    }
+  }
+}

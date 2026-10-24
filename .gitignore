@@ -1,0 +1,19 @@
+# Godot editor cache (keep .import settings and .uid files in source control)
+/.godot/
+
+# Local builds, exported packages, test logs and screenshots
+/build/
+/output/
+
+# Local editor/OS files and Python caches
+/.vscode/
+/.idea/
+**/__pycache__/
+*.py[cod]
+Thumbs.db
+.DS_Store
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example

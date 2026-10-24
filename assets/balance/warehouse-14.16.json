@@ -1,0 +1,1851 @@
+{
+  "source": "https://raw.communitydragon.org/14.16/game/data/maps/shipping/map33/map33.bin.json",
+  "experience": {
+    "cumulative_raw": [
+      5.0,
+      15.0,
+      30.0,
+      50.0,
+      75.0,
+      105.0,
+      140.0,
+      180.0,
+      225.0,
+      275.0,
+      341.0,
+      413.0,
+      491.0,
+      575.0,
+      665.0,
+      761.0,
+      863.0,
+      971.0,
+      1085.0,
+      1205.0,
+      1352.0,
+      1506.0,
+      1667.0,
+      1835.0,
+      2010.0,
+      2192.0,
+      2381.0,
+      2577.0,
+      2780.0,
+      2990.0,
+      3238.0,
+      3494.0,
+      3758.0,
+      4030.0,
+      4310.0,
+      4598.0,
+      4894.0,
+      5198.0,
+      5510.0,
+      5830.0,
+      6199.0,
+      6577.0,
+      6964.0,
+      7360.0,
+      7765.0,
+      8179.0,
+      8602.0,
+      9034.0,
+      9475.0,
+      9925.0,
+      10435.0,
+      10955.0,
+      11485.0,
+      12025.0,
+      12575.0,
+      13135.0,
+      13705.0,
+      14285.0,
+      14875.0,
+      15475.0,
+      16085.0,
+      16705.0,
+      17335.0,
+      17975.0,
+      18625.0,
+      19285.0,
+      19955.0,
+      20635.0,
+      21325.0,
+      22025.0,
+      22735.0,
+      23455.0,
+      24185.0,
+      24925.0,
+      25675.0,
+      26435.0,
+      27205.0,
+      27985.0,
+      28775.0,
+      29575.0,
+      30385.0,
+      31205.0,
+      32035.0,
+      32875.0,
+      33725.0,
+      34585.0,
+      35455.0,
+      36335.0,
+      37225.0,
+      38125.0,
+      19035.0,
+      39955.0,
+      40885.0,
+      41825.0,
+      42775.0,
+      43735.0,
+      44705.0,
+      45685.0,
+      46675.0
+    ],
+    "cumulative": [
+      5,
+      15,
+      30,
+      50,
+      75,
+      105,
+      140,
+      180,
+      225,
+      275,
+      341,
+      413,
+      491,
+      575,
+      665,
+      761,
+      863,
+      971,
+      1085,
+      1205,
+      1352,
+      1506,
+      1667,
+      1835,
+      2010,
+      2192,
+      2381,
+      2577,
+      2780,
+      2990,
+      3238,
+      3494,
+      3758,
+      4030,
+      4310,
+      4598,
+      4894,
+      5198,
+      5510,
+      5830,
+      6199,
+      6577,
+      6964,
+      7360,
+      7765,
+      8179,
+      8602,
+      9034,
+      9475,
+      9925,
+      10435,
+      10955,
+      11485,
+      12025,
+      12575,
+      13135,
+      13705,
+      14285,
+      14875,
+      15475,
+      16085,
+      16705,
+      17335,
+      17975,
+      18625,
+      19285,
+      19955,
+      20635,
+      21325,
+      22025,
+      22735,
+      23455,
+      24185,
+      24925,
+      25675,
+      26435,
+      27205,
+      27985,
+      28775,
+      29575,
+      30385,
+      31205,
+      32035,
+      32875,
+      33725,
+      34585,
+      35455,
+      36335,
+      37225,
+      38125,
+      39035,
+      39955,
+      40885,
+      41825,
+      42775,
+      43735,
+      44705,
+      45685,
+      46675
+    ],
+    "repairs": {
+      "91": "19035 -> 39035: descending archive anomaly; adjacent cumulative steps 900/910/920."
+    },
+    "interpretation": "Cumulative thresholds; per-level display cost is the difference. Existing strict threshold convention (> display cost) retained."
+  },
+  "phases": [
+    {
+      "index": 1,
+      "start": 3.0,
+      "end": 45.0,
+      "type": 2,
+      "waves": [
+        {
+          "name": "MapA_WaveDef1",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 0.75,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 1,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_BasicMelee1_Pix/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{e90c98b1}"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 45.0,
+      "end": 90.0,
+      "type": 2,
+      "waves": [
+        {
+          "name": "MapA_WaveDef2",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 0.4000000059604645,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 1,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_BasicMelee2_Ghoul/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{e60c93f8}"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 90.0,
+      "end": 135.0,
+      "type": 3,
+      "waves": [
+        {
+          "name": "MapA_WaveDef3",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 1.0,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 1,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_Shy/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{e70c958b}"
+        },
+        {
+          "name": "MapA_WaveDef3_PixSandwich",
+          "WaveShape": {
+            "{f77f0044}": 300.0,
+            "SideLength": 5000.0,
+            "GapWidth": 1600.0,
+            "Axis": [
+              0.0,
+              1.0
+            ],
+            "__type": "{f2c8525d}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 100,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 0.0010000000474974513,
+          "SpawnCountPerInterval": 10,
+          "{b97e4d7e}": false,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_BasicMelee1_Pix/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "CanDespawn": false,
+          "ConditionalBehaviors": [
+            {
+              "Condition": {
+                "duration": 25.0,
+                "__type": "{1f3ce132}"
+              },
+              "behaviors": [
+                {
+                  "__type": "{e6144e6d}"
+                }
+              ],
+              "__type": "{eff830de}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{7ed8118c}"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 135.0,
+      "end": 180.0,
+      "type": 2,
+      "waves": [
+        {
+          "name": "MapA_WaveDef4",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "ClusterSize": 2,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 0.75,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 2,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_BasicMelee2_Ghoul/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{ec0c9d6a}"
+        },
+        {
+          "name": "MapA_WaveDef4_BruiserBoss",
+          "WaveShape": {
+            "InnerRadius": 1600.0,
+            "OuterRadius": 1700.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{359681d9}"
+          },
+          "MaxSpawnCount": 1,
+          "SpawnIntervalSecs": 3.0,
+          "SpawnCountPerInterval": 2,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_MiniBoss_Bruiser/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "CanDespawn": false,
+          "behaviors": [
+            {
+              "__type": "{00000000}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{a5ef84ec}"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 180.0,
+      "end": 225.0,
+      "type": 2,
+      "waves": [
+        {
+          "name": "MapA_WaveDef5",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "ClusterSize": 4,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 1.5,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 4,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_Hunter/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{ed0c9efd}"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 225.0,
+      "end": 270.0,
+      "type": 2,
+      "waves": [
+        {
+          "name": "MapA_WaveDef6_Adds",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 0.75,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 1,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_BasicMelee2_Ghoul/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{04b49911}"
+        },
+        {
+          "name": "MapA_WaveDef6",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 10.0,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 3,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_BruiserMelee1_Tibbers/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            },
+            {
+              "StartMoveSpeed": 50.0,
+              "EndMoveSpeed": 300.0,
+              "LerpTimeSeconds": 3.0,
+              "__type": "{27f036af}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{ea0c9a44}"
+        },
+        {
+          "name": "MapA_WaveDef6_ShieldCircle",
+          "WaveShape": {
+            "{f77f0044}": 300.0,
+            "radius": 1300.0,
+            "__type": "{2a84083e}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 60,
+          "SpawnIntervalSecs": 0.009999999776482582,
+          "SpawnCountPerInterval": 10,
+          "{b97e4d7e}": false,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_Shield/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "CanDespawn": false,
+          "behaviors": [
+            {
+              "__type": "{00000000}"
+            },
+            {
+              "__type": "{00000000}"
+            }
+          ],
+          "ConditionalBehaviors": [
+            {
+              "Condition": {
+                "duration": 35.0,
+                "__type": "{1f3ce132}"
+              },
+              "behaviors": [
+                {
+                  "__type": "{e6144e6d}"
+                }
+              ],
+              "__type": "{eff830de}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{380e7ca8}"
+        },
+        {
+          "name": "MapA_WaveDef6_Elite",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 0.4000000059604645,
+          "SpawnCountPerInterval": 1,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_Hunter/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "CanDespawn": false,
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            },
+            {
+              "__type": "{00000000}"
+            },
+            {
+              "__type": "{00000000}"
+            },
+            {
+              "TargetSkinScale": 2.0,
+              "__type": "{6136d145}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{2d710dd8}"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 270.0,
+      "end": 315.0,
+      "type": 5,
+      "waves": [
+        {
+          "name": "MapA_WaveDef7",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "ClusterSize": 15,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 1.0,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 15,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_Swarmer/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{eb0c9bd7}"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 315.0,
+      "end": 360.0,
+      "type": 2,
+      "waves": [
+        {
+          "name": "MapA_WaveDef8_DasherBoss",
+          "WaveShape": {
+            "InnerRadius": 1600.0,
+            "OuterRadius": 2500.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{359681d9}"
+          },
+          "MaxSpawnCount": 2,
+          "SpawnIntervalSecs": 3.0,
+          "SpawnCountPerInterval": 2,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_MiniBoss_Dasher/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "CanDespawn": false,
+          "behaviors": [
+            {
+              "__type": "{00000000}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{2cd733c5}"
+        },
+        {
+          "name": "MapA_WaveDef8",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 5.0,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 4,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_Lancer/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{e00c8a86}"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 360.0,
+      "end": 405.0,
+      "type": 2,
+      "waves": [
+        {
+          "name": "MapA_WaveDef9",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "ClusterSize": 5,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 0.75,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 10,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_MiniDasher/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{e10c8c19}"
+        },
+        {
+          "name": "MapA_WaveDef9_Elite",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 0.4000000059604645,
+          "SpawnCountPerInterval": 1,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_MiniDasher/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "CanDespawn": false,
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            },
+            {
+              "__type": "{00000000}"
+            },
+            {
+              "__type": "{00000000}"
+            },
+            {
+              "TargetSkinScale": 2.0,
+              "__type": "{6136d145}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{343b1939}"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 405.0,
+      "end": 450.0,
+      "type": 2,
+      "waves": [
+        {
+          "name": "MapA_WaveDef10",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "ClusterSize": 2,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 0.8500000238418579,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 2,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_BasicMelee4_Red/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{5fd41313}"
+        },
+        {
+          "name": "MapA_WaveDef10_Exploder",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 20,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 8.0,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 2,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_Exploder/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{c6f0c8d1}"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 450.0,
+      "end": 495.0,
+      "type": 2,
+      "waves": [
+        {
+          "name": "MapA_WaveDef11",
+          "WaveShape": {
+            "InnerRadius": 800.0,
+            "OuterRadius": 1000.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 1.0,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 3,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_BasicMelee3_Fuemigo/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{5ed41180}"
+        },
+        {
+          "name": "MapA_WaveDef11_LancerCircle",
+          "WaveShape": {
+            "{f77f0044}": 300.0,
+            "radius": 1400.0,
+            "__type": "{2a84083e}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 70,
+          "SpawnIntervalSecs": 0.009999999776482582,
+          "SpawnCountPerInterval": 10,
+          "{b97e4d7e}": false,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_Shield/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "__type": "{00000000}"
+            },
+            {
+              "__type": "{00000000}"
+            }
+          ],
+          "ConditionalBehaviors": [
+            {
+              "Condition": {
+                "duration": 35.0,
+                "__type": "{1f3ce132}"
+              },
+              "behaviors": [
+                {
+                  "__type": "{e6144e6d}"
+                }
+              ],
+              "__type": "{eff830de}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{ce182fa2}"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 495.0,
+      "end": 540.0,
+      "type": 2,
+      "waves": [
+        {
+          "name": "MapA_WaveDef12_ArtilleryBoss",
+          "WaveShape": {
+            "InnerRadius": 3000.0,
+            "OuterRadius": 4500.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{359681d9}"
+          },
+          "MaxSpawnCount": 2,
+          "SpawnIntervalSecs": 3.0,
+          "SpawnCountPerInterval": 2,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_MiniBoss_Artillery/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "CanDespawn": false,
+          "behaviors": [
+            {
+              "__type": "{00000000}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{ad450c1d}"
+        },
+        {
+          "name": "MapA_WaveDef12",
+          "WaveShape": {
+            "InnerRadius": 1000.0,
+            "OuterRadius": 1500.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 1.0,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 3,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_BasicMelee3_Fuemigo/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{61d41639}"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 540.0,
+      "end": 585.0,
+      "type": 2,
+      "waves": [
+        {
+          "name": "MapA_WaveDef13",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 8.0,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 2,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_BruiserMelee2_Daisy/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{60d414a6}"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 585.0,
+      "end": 630.0,
+      "type": 2,
+      "waves": [
+        {
+          "name": "MapA_WaveDef14",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "ClusterSize": 2,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 1.5,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 6,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_Fast/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{63d4195f}"
+        },
+        {
+          "name": "MapA_WaveDef14_Elite",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 0.4000000059604645,
+          "SpawnCountPerInterval": 1,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_Lancer/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "CanDespawn": false,
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            },
+            {
+              "__type": "{00000000}"
+            },
+            {
+              "__type": "{00000000}"
+            },
+            {
+              "TargetSkinScale": 2.0,
+              "__type": "{6136d145}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{e14085fb}"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 630.0,
+      "end": 675.0,
+      "type": 2,
+      "waves": [
+        {
+          "name": "MapA_WaveDef15_SpawnerController",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 10.0,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 4,
+          "{a8705448}": {
+            "WaveToSpawn": "{58aabd53}",
+            "__type": "{968ce2ad}"
+          },
+          "__type": "{e75aad84}",
+          "reference_id": "{5fff183f}",
+          "child_wave": {
+            "name": "MapA_WaveDef15_Spawner",
+            "WaveShape": {
+              "{f77f0044}": 100.0,
+              "SpawnerCharacter": {
+                "CharacterRecord": "Characters/Strawberry_Enemy_Spawner/CharacterRecords/Root",
+                "RandomWeight": 0.009999999776482582,
+                "__type": "{4f4c4ffc}"
+              },
+              "{fd6b703e}": 150.0,
+              "__type": "{f307d6c9}"
+            },
+            "SpawnLocation": {
+              "__type": "{c93653c7}"
+            },
+            "MaxSpawnCount": 1000,
+            "{aebfc2af}": true,
+            "SpawnIntervalSecs": 5.0,
+            "SpawnCountPerInterval": 1,
+            "characters": [
+              {
+                "CharacterRecord": "Characters/Strawberry_Enemy_Hunter/CharacterRecords/Root",
+                "RandomWeight": 1.0,
+                "__type": "{4f4c4ffc}"
+              }
+            ],
+            "behaviors": [
+              {
+                "maxDistance": 3000.0,
+                "TeleportDistance": 0.0,
+                "TeleportInnerRadius": 2200.0,
+                "TeleportOuterRadius": 2300.0,
+                "__type": "{7af6df8b}"
+              },
+              {
+                "__type": "{00000000}"
+              }
+            ],
+            "__type": "{e75aad84}"
+          }
+        },
+        {
+          "name": "MapA_WaveDef15",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "ClusterSize": 2,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 1.0,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 4,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_BasicMelee4_Red/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{62d417cc}"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 675.0,
+      "end": 720.0,
+      "type": 2,
+      "waves": [
+        {
+          "name": "MapA_WaveDef16_BruiserBoss",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{359681d9}"
+          },
+          "MaxSpawnCount": 3,
+          "SpawnIntervalSecs": 3.0,
+          "SpawnCountPerInterval": 2,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_MiniBoss_Bruiser/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "CanDespawn": false,
+          "behaviors": [
+            {
+              "__type": "{00000000}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{b87338a7}"
+        },
+        {
+          "name": "MapA_WaveDef16",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "ClusterSize": 3,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 1.0,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 6,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_BasicMelee4_Red/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{65d41c85}"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 720.0,
+      "end": 765.0,
+      "type": 2,
+      "waves": [
+        {
+          "name": "MapA_WaveDef17",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "ClusterSize": 3,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 0.75,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 15,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_BasicMelee2_Ghoul/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            },
+            {
+              "__type": "{00000000}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{64d41af2}"
+        },
+        {
+          "name": "MapA_WaveDef17_Elite",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 0.4000000059604645,
+          "SpawnCountPerInterval": 1,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_Shield/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "CanDespawn": false,
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            },
+            {
+              "__type": "{00000000}"
+            },
+            {
+              "TargetSkinScale": 2.0,
+              "__type": "{6136d145}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{3edd85b2}"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 765.0,
+      "end": 810.0,
+      "type": 6,
+      "waves": [
+        {
+          "name": "MapA_WaveDef18",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 0.6000000238418579,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 2,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_Shield/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{67d41fab}"
+        },
+        {
+          "name": "MapA_WaveDef18_Divider",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 0.5,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 2,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_Divider/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            },
+            {
+              "TargetSkinScale": 2.0,
+              "__type": "{6136d145}"
+            },
+            {
+              "__type": "{00000000}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{c9f9a885}"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 810.0,
+      "end": 855.0,
+      "type": 2,
+      "waves": [
+        {
+          "name": "MapA_WaveDef19",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "ClusterSize": 2,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 4.0,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 6,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_BruiserMelee2_Daisy/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{66d41e18}"
+        },
+        {
+          "name": "MapA_WaveDef19_Elite",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 0.4000000059604645,
+          "SpawnCountPerInterval": 1,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_BruiserMelee2_Daisy/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "CanDespawn": false,
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            },
+            {
+              "__type": "{00000000}"
+            },
+            {
+              "TargetSkinScale": 2.0,
+              "__type": "{6136d145}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{a3e2b454}"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 855.0,
+      "end": 900.0,
+      "type": 2,
+      "waves": [
+        {
+          "name": "MapA_WaveDef20",
+          "WaveShape": {
+            "InnerRadius": 2000.0,
+            "OuterRadius": 2300.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 1000,
+          "ClusterSize": 2,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 1.0,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 6,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_BruiserMelee2_Daisy/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 3000.0,
+              "TeleportDistance": 0.0,
+              "TeleportInnerRadius": 2200.0,
+              "TeleportOuterRadius": 2300.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{edcca3d8}"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 900.0,
+      "end": 10900.0,
+      "type": 2,
+      "waves": [
+        {
+          "name": "MapA_WaveDefBoss_Swarmers",
+          "WaveShape": {
+            "InnerRadius": 1600.0,
+            "OuterRadius": 2500.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 500,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 0.5,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 2,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_Swarmer/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 2400.0,
+              "TeleportDistance": 2000.0,
+              "TeleportInnerRadius": 25.0,
+              "TeleportOuterRadius": 500.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{00239234}"
+        },
+        {
+          "name": "MapA_WaveDefBoss_RekSaiMini",
+          "WaveShape": {
+            "InnerRadius": 1600.0,
+            "OuterRadius": 2500.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{c93653c7}"
+          },
+          "MaxSpawnCount": 500,
+          "{aebfc2af}": true,
+          "SpawnIntervalSecs": 2.5,
+          "{dc6c6389}": true,
+          "SpawnCountPerInterval": 1,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Enemy_MiniRekSai/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "behaviors": [
+            {
+              "maxDistance": 2400.0,
+              "TeleportDistance": 2000.0,
+              "TeleportInnerRadius": 25.0,
+              "TeleportOuterRadius": 500.0,
+              "__type": "{7af6df8b}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{a7538e4a}"
+        },
+        {
+          "name": "MapA_WaveDefBoss_RekSai",
+          "WaveShape": {
+            "InnerRadius": 1600.0,
+            "OuterRadius": 2500.0,
+            "__type": "{bcec55fa}"
+          },
+          "SpawnLocation": {
+            "__type": "{359681d9}"
+          },
+          "MaxSpawnCount": 1,
+          "SpawnIntervalSecs": 1.0,
+          "SpawnCountPerInterval": 1,
+          "characters": [
+            {
+              "CharacterRecord": "Characters/Strawberry_Boss_RekSai/CharacterRecords/Root",
+              "RandomWeight": 1.0,
+              "__type": "{4f4c4ffc}"
+            }
+          ],
+          "CanDespawn": false,
+          "behaviors": [
+            {
+              "__type": "{00000000}"
+            }
+          ],
+          "ConditionalBehaviors": [
+            {
+              "Condition": {
+                "__type": "{10b5dae9}"
+              },
+              "behaviors": [
+                {
+                  "__type": "{7730763b}"
+                }
+              ],
+              "__type": "{eff830de}"
+            }
+          ],
+          "__type": "{e75aad84}",
+          "reference_id": "{0c486775}"
+        }
+      ]
+    }
+  ],
+  "event_schedule": {
+    "mission": [
+      150,
+      450,
+      750
+    ],
+    "trial": [
+      240,
+      540,
+      810
+    ],
+    "supply": [
+      90,
+      270,
+      390,
+      570,
+      690,
+      870
+    ]
+  },
+  "event_schedule_status": "Approximate windows from public gameplay descriptions. Server spire scripts were not present in map33; not claimed exact. No invented global ten-second spawn pause: long 8/10-second intervals exist in the original waves."
+}

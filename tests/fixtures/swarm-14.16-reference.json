@@ -1,0 +1,895 @@
+{
+  "weapon_uwu_blaster": {
+    "spell": "Augment_Weapon_RapidShot",
+    "mapping": {
+      "damage": "Damage",
+      "cooldown": "cooldownTime",
+      "count": "ProjectileCount",
+      "radius": null,
+      "duration": null
+    },
+    "fields": {
+      "Damage": [
+        45.0,
+        45.0,
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        65.0
+      ],
+      "cooldownTime": [
+        1.0,
+        1.0,
+        0.85,
+        0.7,
+        0.65,
+        0.5,
+        0.25
+      ],
+      "ProjectileCount": [
+        1.0,
+        1.0,
+        1.0,
+        2.0,
+        2.0,
+        3.0,
+        3.0
+      ]
+    }
+  },
+  "weapon_ani_mines": {
+    "spell": "Augment_Weapon_Mine_Wrapper",
+    "mapping": {
+      "damage": "MineDamage",
+      "cooldown": "cooldownTime",
+      "count": "BaseMinesNum",
+      "radius": "AoERadius",
+      "duration": null
+    },
+    "fields": {
+      "MineDamage": [
+        35.0,
+        60.0,
+        85.0,
+        110.0,
+        135.0,
+        160.0,
+        160.0
+      ],
+      "cooldownTime": [
+        7.0,
+        7.0,
+        6.0,
+        6.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "BaseMinesNum": [
+        3.0,
+        3.0,
+        3.0,
+        4.0,
+        4.0,
+        5.0,
+        5.0
+      ],
+      "AoERadius": [
+        300.0,
+        300.0,
+        350.0,
+        350.0,
+        400.0,
+        400.0,
+        400.0
+      ]
+    }
+  },
+  "weapon_anti_shark": {
+    "spell": "Augment_Weapon_FireBomb",
+    "mapping": {
+      "damage": "Damage",
+      "cooldown": "cooldownTime",
+      "count": null,
+      "radius": null,
+      "duration": null
+    },
+    "fields": {
+      "Damage": [
+        40.0,
+        45.0,
+        50.0,
+        55.0,
+        60.0,
+        65.0,
+        70.0
+      ],
+      "cooldownTime": [
+        6.0,
+        6.0,
+        5.0,
+        4.0,
+        3.0,
+        2.0,
+        2.0
+      ]
+    }
+  },
+  "weapon_crossbow": {
+    "spell": "Augment_Weapon_PierceShot",
+    "mapping": {
+      "damage": "Damage",
+      "cooldown": "cooldownTime",
+      "count": "ProjectileCount",
+      "radius": null,
+      "duration": null
+    },
+    "fields": {
+      "Damage": [
+        90.0,
+        90.0,
+        110.0,
+        130.0,
+        150.0,
+        170.0,
+        170.0
+      ],
+      "cooldownTime": [
+        2.5,
+        2.5,
+        2.25,
+        2.25,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "ProjectileCount": [
+        3.0,
+        3.0,
+        3.0,
+        4.0,
+        4.0,
+        5.0,
+        25.0
+      ]
+    }
+  },
+  "weapon_blade_o_rang": {
+    "spell": "Augment_Weapon_Boomerang",
+    "mapping": {
+      "damage": "Damage",
+      "cooldown": "cooldownTime",
+      "count": "ProjectileCount",
+      "radius": null,
+      "duration": null
+    },
+    "fields": {
+      "Damage": [
+        40.0,
+        40.0,
+        50.0,
+        60.0,
+        70.0,
+        80.0,
+        110.0
+      ],
+      "cooldownTime": [
+        6.0,
+        6.0,
+        5.0,
+        5.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "ProjectileCount": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        5.0
+      ]
+    }
+  },
+  "weapon_mega_blast": {
+    "spell": "Augment_Weapon_StarStrike",
+    "mapping": {
+      "damage": "Damage",
+      "cooldown": "cooldownTime",
+      "count": "NumberOfTargets",
+      "radius": "ExplosionRadius",
+      "duration": null
+    },
+    "fields": {
+      "Damage": [
+        70.0,
+        120.0,
+        170.0,
+        220.0,
+        270.0,
+        320.0,
+        370.0
+      ],
+      "cooldownTime": [
+        7.0,
+        7.0,
+        7.0,
+        5.5,
+        5.5,
+        4.0,
+        4.0
+      ],
+      "NumberOfTargets": [
+        2.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0,
+        4.0,
+        5.0
+      ],
+      "ExplosionRadius": [
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0
+      ]
+    }
+  },
+  "weapon_slicers": {
+    "spell": "Augment_Weapon_HolyBauble",
+    "mapping": {
+      "damage": "BaseDamage",
+      "cooldown": "cooldownTime",
+      "count": "ProjectileCount",
+      "radius": null,
+      "duration": "Duration"
+    },
+    "fields": {
+      "BaseDamage": [
+        55.0,
+        55.0,
+        55.0,
+        60.0,
+        60.0,
+        65.0,
+        65.0
+      ],
+      "cooldownTime": [
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        3.0
+      ],
+      "ProjectileCount": [
+        2.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        6.0
+      ],
+      "Duration": [
+        7.0,
+        7.0,
+        8.0,
+        8.0,
+        9.0,
+        9.0,
+        9.0
+      ]
+    }
+  },
+  "weapon_batblades": {
+    "spell": "Augment_Weapon_ScatterArrows",
+    "mapping": {
+      "damage": "Damage",
+      "cooldown": "cooldownTime",
+      "count": "ProjectileCount",
+      "radius": null,
+      "duration": null
+    },
+    "fields": {
+      "Damage": [
+        35.0,
+        35.0,
+        55.0,
+        75.0,
+        95.0,
+        115.0,
+        115.0
+      ],
+      "cooldownTime": [
+        3.0,
+        3.0,
+        3.0,
+        2.25,
+        2.25,
+        1.5,
+        1.5
+      ],
+      "ProjectileCount": [
+        3.0,
+        4.0,
+        5.0,
+        5.0,
+        6.0,
+        6.0,
+        7.0
+      ]
+    }
+  },
+  "weapon_transit": {
+    "spell": "Augment_Weapon_Train",
+    "mapping": {
+      "damage": "BaseDamage",
+      "cooldown": "cooldownTime",
+      "count": null,
+      "radius": null,
+      "duration": null
+    },
+    "fields": {
+      "BaseDamage": [
+        -75.0,
+        125.0,
+        325.0,
+        525.0,
+        725.0,
+        925.0,
+        925.0
+      ],
+      "cooldownTime": [
+        9.0,
+        9.0,
+        8.0,
+        7.0,
+        6.0,
+        5.0,
+        5.0
+      ]
+    }
+  },
+  "weapon_gatling": {
+    "spell": "Augment_Weapon_CorkiE",
+    "mapping": {
+      "damage": "BaseDamage",
+      "cooldown": "cooldownTime",
+      "count": null,
+      "radius": "CastRange",
+      "duration": "SprayDuration"
+    },
+    "fields": {
+      "BaseDamage": [
+        -5.0,
+        15.0,
+        35.0,
+        55.0,
+        75.0,
+        95.0,
+        115.0
+      ],
+      "cooldownTime": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ],
+      "CastRange": [
+        675.0,
+        725.0,
+        775.0,
+        825.0,
+        875.0,
+        925.0,
+        975.0
+      ],
+      "SprayDuration": [
+        8.0,
+        8.0,
+        8.5,
+        9.0,
+        9.5,
+        10.0,
+        10.0
+      ]
+    }
+  },
+  "weapon_iceblast": {
+    "spell": "Augment_Weapon_FrostNova",
+    "mapping": {
+      "damage": "BaseDamage",
+      "cooldown": "Cooldown",
+      "count": null,
+      "radius": "AoeSize",
+      "duration": "Duration"
+    },
+    "fields": {
+      "BaseDamage": [
+        15.0,
+        50.0,
+        85.0,
+        120.0,
+        155.0,
+        190.0,
+        190.0
+      ],
+      "Cooldown": [
+        18.0,
+        18.0,
+        18.0,
+        17.0,
+        17.0,
+        16.0,
+        16.0
+      ],
+      "AoeSize": [
+        560.0,
+        600.0,
+        640.0,
+        680.0,
+        720.0,
+        760.0,
+        800.0
+      ],
+      "Duration": [
+        2.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0,
+        4.0,
+        5.0
+      ]
+    }
+  },
+  "weapon_lioness": {
+    "spell": "Augment_Weapon_DianaQ",
+    "mapping": {
+      "damage": "BaseDamage",
+      "cooldown": "cooldownTime",
+      "count": "ProjectileCount",
+      "radius": null,
+      "duration": null
+    },
+    "fields": {
+      "BaseDamage": [
+        25.0,
+        60.0,
+        95.0,
+        130.0,
+        165.0,
+        200.0,
+        235.0
+      ],
+      "cooldownTime": [
+        6.0,
+        6.0,
+        6.0,
+        4.5,
+        4.5,
+        3.0,
+        3.0
+      ],
+      "ProjectileCount": [
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        4.0,
+        4.0,
+        4.0
+      ]
+    }
+  },
+  "weapon_paw_poison": {
+    "spell": "Augment_Weapon_PoisonTrail",
+    "mapping": {
+      "damage": "BaseDamagePerSecond",
+      "cooldown": "cooldownTime",
+      "count": null,
+      "radius": "BaseSize",
+      "duration": "CloudDuration"
+    },
+    "fields": {
+      "BaseDamagePerSecond": [
+        15.0,
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        75.0
+      ],
+      "cooldownTime": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BaseSize": [
+        150.0,
+        150.0,
+        225.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "CloudDuration": [
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5
+      ]
+    }
+  },
+  "weapon_radiant_field": {
+    "spell": "Augment_Weapon_HollowRadiance",
+    "mapping": {
+      "damage": "BaseDamage",
+      "cooldown": "cooldownTime",
+      "count": null,
+      "radius": "Radius",
+      "duration": null
+    },
+    "fields": {
+      "BaseDamage": [
+        5.0,
+        5.0,
+        15.0,
+        25.0,
+        35.0,
+        45.0,
+        55.0
+      ],
+      "cooldownTime": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "Radius": [
+        225.0,
+        220.0,
+        260.0,
+        275.0,
+        340.0,
+        380.0,
+        385.0
+      ]
+    }
+  },
+  "weapon_shortbow": {
+    "spell": "Augment_Weapon_FireStrike",
+    "mapping": {
+      "damage": "BaseDamage",
+      "cooldown": "cooldownTime",
+      "count": "NumberOfTargets",
+      "radius": "Radius",
+      "duration": "BaseDuration"
+    },
+    "fields": {
+      "BaseDamage": [
+        40.0,
+        40.0,
+        60.0,
+        80.0,
+        100.0,
+        120.0,
+        120.0
+      ],
+      "cooldownTime": [
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ],
+      "NumberOfTargets": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "Radius": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0
+      ],
+      "BaseDuration": [
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ]
+    }
+  },
+  "weapon_statikk": {
+    "spell": "Augment_Weapon_StatikkShiv",
+    "mapping": {
+      "damage": "BaseDamage",
+      "cooldown": "cooldownTime",
+      "count": "TargetCount",
+      "radius": null,
+      "duration": null
+    },
+    "fields": {
+      "BaseDamage": [
+        100.0,
+        100.0,
+        190.0,
+        280.0,
+        370.0,
+        460.0,
+        460.0
+      ],
+      "cooldownTime": [
+        5.5,
+        5.5,
+        4.0,
+        4.0,
+        2.5,
+        2.5,
+        2.5
+      ],
+      "TargetCount": [
+        5.0,
+        5.0,
+        5.0,
+        7.0,
+        7.0,
+        9.0,
+        9.0
+      ]
+    }
+  },
+  "weapon_tibbers": {
+    "spell": "Augment_Weapon_Tibbers",
+    "mapping": {
+      "damage": "TibbersBaseDamage",
+      "cooldown": "cooldownTime",
+      "count": null,
+      "radius": "TibbersBaseAoE",
+      "duration": "TibbersLifetime"
+    },
+    "fields": {
+      "TibbersBaseDamage": [
+        20.0,
+        100.0,
+        180.0,
+        260.0,
+        340.0,
+        420.0,
+        500.0
+      ],
+      "cooldownTime": [
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0
+      ],
+      "TibbersBaseAoE": [
+        375.0,
+        375.0,
+        375.0,
+        425.0,
+        425.0,
+        475.0,
+        475.0
+      ],
+      "TibbersLifetime": [
+        18.0,
+        20.0,
+        22.0,
+        24.0,
+        26.0,
+        28.0,
+        30.0
+      ]
+    }
+  },
+  "weapon_annihilator": {
+    "spell": "Augment_Weapon_Nuke",
+    "mapping": {
+      "damage": "Damage",
+      "cooldown": "cooldownTime",
+      "count": null,
+      "radius": "Radius",
+      "duration": null
+    },
+    "fields": {
+      "Damage": [
+        800.0,
+        1000.0,
+        1200.0,
+        1400.0,
+        1600.0,
+        1800.0,
+        2000.0
+      ],
+      "cooldownTime": [
+        100.0,
+        100.0,
+        90.0,
+        80.0,
+        70.0,
+        60.0,
+        60.0
+      ],
+      "Radius": [
+        1700.0,
+        1700.0,
+        1700.0,
+        1700.0,
+        1700.0,
+        1700.0,
+        1700.0
+      ]
+    }
+  },
+  "weapon_vortex_glove": {
+    "spell": "Augment_Weapon_CircleShot",
+    "mapping": {
+      "damage": "Damage",
+      "cooldown": "cooldownTime",
+      "count": "ProjectileCount",
+      "radius": null,
+      "duration": null
+    },
+    "fields": {
+      "Damage": [
+        35.0,
+        35.0,
+        40.0,
+        40.0,
+        45.0,
+        45.0,
+        45.0
+      ],
+      "cooldownTime": [
+        0.35,
+        0.35,
+        0.3,
+        0.3,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "ProjectileCount": [
+        1.0,
+        1.0,
+        1.0,
+        2.0,
+        2.0,
+        3.0,
+        3.0
+      ]
+    }
+  },
+  "weapon_yuumibot": {
+    "spell": "Augment_Weapon_TwinShadows",
+    "mapping": {
+      "damage": "BaseDamage",
+      "cooldown": "cooldownTime",
+      "count": null,
+      "radius": "CollisionDamageSize",
+      "duration": "Duration"
+    },
+    "fields": {
+      "BaseDamage": [
+        -20.0,
+        80.0,
+        180.0,
+        280.0,
+        380.0,
+        480.0,
+        580.0
+      ],
+      "cooldownTime": [
+        20.0,
+        20.0,
+        20.0,
+        18.0,
+        18.0,
+        16.0,
+        16.0
+      ],
+      "CollisionDamageSize": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "Duration": [
+        10.0,
+        10.0,
+        12.0,
+        12.0,
+        14.0,
+        14.0,
+        14.0
+      ]
+    }
+  },
+  "weapon_meow_meow": {
+    "spell": "Strawberry_JinxAutoAttack",
+    "fields": {
+      "Damage": [
+        60.0,
+        60.0,
+        80.0,
+        100.0,
+        120.0,
+        140.0,
+        140.0
+      ],
+      "MinigunBulletCount": [
+        3.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        7.0
+      ],
+      "cooldownTime": [
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        2.5,
+        1.25
+      ],
+      "FallOffDamagePercent": [
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  }
+}

@@ -1,0 +1,751 @@
+{
+  "project_name": "WUMMS – Operation Knall-Kartoffel",
+  "version": "0.2.0",
+  "engine": "Godot 4.7.2",
+  "reference": "League of Legends: Swarm | Operation: Anima Squad (Summer 2024, Patches 14.15 / 14.16)",
+  "characters": [
+    {
+      "id": "jankz",
+      "original": "Jinx",
+      "display_name": "Jankz",
+      "starter_weapon": "weapon_meow_meow",
+      "passive": "Völlig verjankzt!",
+      "ability_e": "Fischgräten-Festival",
+      "ability_r": "Super-Mega-Todesgurke"
+    },
+    {
+      "id": "seraföhn",
+      "original": "Seraphine",
+      "display_name": "Sera-Föhn",
+      "starter_weapon": "weapon_sound_wave",
+      "passive": "Bühnen-Ballerina",
+      "ability_e": "Surround-Schnitzel",
+      "ability_r": "Die perfekte Furznote"
+    },
+    {
+      "id": "löwina",
+      "original": "Leona",
+      "display_name": "Löwina",
+      "starter_weapon": "weapon_shield_slam",
+      "passive": "Sonnenbrand-Sympathie",
+      "ability_e": "Eierklipse",
+      "ability_r": "Sonnenexplodierter Käsekuchen"
+    },
+    {
+      "id": "illaupsi",
+      "original": "Illaoi",
+      "display_name": "Illa-Upsi",
+      "starter_weapon": "weapon_tentacle_slam",
+      "passive": "Urzeit-Unkaputtbarkeit",
+      "ability_e": "Tentakel-Taschenschlag",
+      "ability_r": "Glaubens-Gummisprung"
+    },
+    {
+      "id": "brioche",
+      "original": "Briar",
+      "display_name": "Brioche",
+      "starter_weapon": "weapon_pillory_swipe",
+      "passive": "Brotzeit-Überlebensinstinkt",
+      "ability_e": "Fisch-Fressflash & Baguette-Brüller",
+      "ability_r": "Brioche-Bombardement"
+    },
+    {
+      "id": "yasüff",
+      "original": "Yasuo",
+      "display_name": "Yasüff",
+      "starter_weapon": "weapon_steel_tempest",
+      "passive": "Weg des Wanderwürstchens",
+      "ability_e": "Wischmopp-Klinge",
+      "ability_r": "Windel-Wand"
+    },
+    {
+      "id": "rübenrambo",
+      "original": "Riven",
+      "display_name": "Rüben-Rambo",
+      "starter_weapon": "weapon_bunny_hop",
+      "passive": "Rübenklinge",
+      "ability_e": "Heldenmumpitz",
+      "ability_r": "Klinge des Exzesses"
+    },
+    {
+      "id": "auarora",
+      "original": "Aurora",
+      "display_name": "Aua-Rora",
+      "starter_weapon": "weapon_guiding_hex",
+      "passive": "Austreibung der Gummigeister",
+      "ability_e": "Durch den Duschvorhang",
+      "ability_r": "Zwischen zwei Waffeln"
+    },
+    {
+      "id": "xayaya",
+      "original": "Xayah",
+      "display_name": "Xayaya",
+      "starter_weapon": "weapon_winged_dagger",
+      "passive": "Fledermaus-Freidrehmodus",
+      "ability_e": "Feder-Fang-Furie",
+      "ability_r": "Besteck-Bombardement"
+    }
+  ],
+  "weapons": [
+    {
+      "id": "weapon_uwu_blaster",
+      "original": "UwU-Blaster",
+      "display_name": "ÜwÜ-Ballermann",
+      "evolution_id": "weapon_owo_blaster",
+      "evolution_name": "AwA-Abrissomat",
+      "requires_passive": "ability_haste"
+    },
+    {
+      "id": "weapon_ani_mines",
+      "original": "Ani-Minen",
+      "display_name": "Anime-Mimosen",
+      "evolution_id": "weapon_tri_namite",
+      "evolution_name": "Dreifach-Dönernit",
+      "requires_passive": "area_size"
+    },
+    {
+      "id": "weapon_anti_shark",
+      "original": "Anti-Shark Sea Mine",
+      "display_name": "Anti-Hai-Hai-Mine",
+      "evolution_id": "weapon_mobstomper",
+      "evolution_name": "Endlos-Mobsmatscher",
+      "requires_passive": "damage"
+    },
+    {
+      "id": "weapon_crossbow",
+      "original": "Battle-Bunny-Bogen",
+      "display_name": "Kampfhasi-Knallbogen",
+      "evolution_id": "weapon_ballista",
+      "evolution_name": "Primaballerina-Balliste",
+      "requires_passive": "crit_chance"
+    },
+    {
+      "id": "weapon_blade_o_rang",
+      "original": "Blade-o-rang",
+      "display_name": "Blödelrang",
+      "evolution_id": "weapon_quad_o_rang",
+      "evolution_name": "Quadrödelrang",
+      "requires_passive": "movement_speed"
+    },
+    {
+      "id": "weapon_mega_blast",
+      "original": "Bunny Mega-Blast",
+      "display_name": "Hasi-Mega-Böller",
+      "evolution_id": "weapon_rabbit_raindown",
+      "evolution_name": "Rammler-Regen-Ragnarök",
+      "requires_passive": "crit_chance"
+    },
+    {
+      "id": "weapon_slicers",
+      "original": "Wirbelnde Schlitzer",
+      "display_name": "Wirbelnde Schnitzel",
+      "evolution_id": "weapon_cyclone",
+      "evolution_name": "Endlos-Schnitzelsturm",
+      "requires_passive": "health_regen"
+    },
+    {
+      "id": "weapon_batblades",
+      "original": "Echoing Batblades",
+      "display_name": "Echo-Flederflatschen",
+      "evolution_id": "weapon_chromablades",
+      "evolution_name": "Chromaklatscher 3000",
+      "requires_passive": "projectile_count"
+    },
+    {
+      "id": "weapon_transit",
+      "original": "Final City Transit",
+      "display_name": "Bahn-Bonanza",
+      "evolution_id": "weapon_express",
+      "evolution_name": "Frittal-Express-Entgleisung",
+      "requires_passive": "damage"
+    },
+    {
+      "id": "weapon_gatling",
+      "original": "Bunny-Repetiergeschütz",
+      "display_name": "Hasen-Hagelkanone",
+      "evolution_id": "weapon_barrage",
+      "evolution_name": "Doppel-Bumm-Bumm-Barrikade",
+      "requires_passive": "duration"
+    },
+    {
+      "id": "weapon_iceblast",
+      "original": "Iceblast Armor",
+      "display_name": "Eisbein-Panzer",
+      "evolution_id": "weapon_deep_freeze",
+      "evolution_name": "Gefrierfach-Finale",
+      "requires_passive": "armor"
+    },
+    {
+      "id": "weapon_lioness",
+      "original": "Lioness's Lament",
+      "display_name": "Löwen-Lamento",
+      "evolution_id": "weapon_enveloping_light",
+      "evolution_name": "Kuschel-Scheinwerfer",
+      "requires_passive": "ability_haste"
+    },
+    {
+      "id": "weapon_paw_poison",
+      "original": "Paw Print Poisoner",
+      "display_name": "Pfoten-Pups-Pest",
+      "evolution_id": "weapon_bearfoot_chem",
+      "evolution_name": "Barfuß-Biogasanlage",
+      "requires_passive": "movement_speed"
+    },
+    {
+      "id": "weapon_radiant_field",
+      "original": "Lichtfeld",
+      "display_name": "Glitzer-Gammelfeld",
+      "evolution_id": "weapon_explosive_embrace",
+      "evolution_name": "Explosiver Gruppenkuschler",
+      "requires_passive": "max_health"
+    },
+    {
+      "id": "weapon_shortbow",
+      "original": "Sengender Kurzbogen",
+      "display_name": "Sengender Snackbogen",
+      "evolution_id": "weapon_embershot",
+      "evolution_name": "Glühkeks Deluxe",
+      "requires_passive": "area_size"
+    },
+    {
+      "id": "weapon_statikk",
+      "original": "Statikk Sword",
+      "display_name": "Steckdosen-Säbel",
+      "evolution_id": "weapon_electrocarver",
+      "evolution_name": "Brummis Elektroschnitzel",
+      "requires_passive": "max_health"
+    },
+    {
+      "id": "weapon_tibbers",
+      "original": "T.I.B.B.E.R.S",
+      "display_name": "T.E.D.D.Y.S",
+      "evolution_id": "weapon_tibbers_beeg",
+      "evolution_name": "T.E.D.D.Y.S: D.I.C.K.-Edition",
+      "requires_passive": "duration"
+    },
+    {
+      "id": "weapon_annihilator",
+      "original": "The Annihilator",
+      "display_name": "Der Ananasinator",
+      "evolution_id": "weapon_animapocalypse",
+      "evolution_name": "Ananaspokalypse",
+      "requires_passive": "exp_gain"
+    },
+    {
+      "id": "weapon_vortex_glove",
+      "original": "Vortex Glove",
+      "display_name": "Wirbel-Watschen-Handschuh",
+      "evolution_id": "weapon_tempest_gauntlet",
+      "evolution_name": "Gewitter-Geklatsche",
+      "requires_passive": "health_regen"
+    },
+    {
+      "id": "weapon_yuumibot",
+      "original": "Yuumi-Bot",
+      "display_name": "Miezi-Mat 1.0",
+      "evolution_id": "weapon_yuumibot_final",
+      "evolution_name": "MieziMat_FINAL_final2_WIRKLICH",
+      "requires_passive": "pickup_radius"
+    },
+    {
+      "id": "weapon_meow_meow",
+      "original": "Meow Meow",
+      "display_name": "Miau-MG",
+      "evolution_id": "weapon_battle_cat_barrage",
+      "evolution_name": "Krawallkatzen-Kugelhagel",
+      "requires_passive": "ability_haste"
+    },
+    {
+      "id": "weapon_sound_wave",
+      "original": "Sound Wave",
+      "display_name": "Säusel-Schallwelle",
+      "evolution_id": "weapon_anima_echo",
+      "evolution_name": "Seelen-Stereo-Remix",
+      "requires_passive": "projectile_count"
+    },
+    {
+      "id": "weapon_shield_slam",
+      "original": "Schild des Tagesanbruchs",
+      "display_name": "Schild der Frühstücksdämmerung",
+      "evolution_id": "weapon_enveloping_sun",
+      "evolution_name": "Löwinnen-Fernlicht",
+      "requires_passive": "armor"
+    },
+    {
+      "id": "weapon_tentacle_slam",
+      "original": "Tentacle Slam",
+      "display_name": "Tentakel-Tackling",
+      "evolution_id": "weapon_grizzly_smash",
+      "evolution_name": "Grizzly-Geklatsche",
+      "requires_passive": "duration"
+    },
+    {
+      "id": "weapon_pillory_swipe",
+      "original": "Pillory Swipe",
+      "display_name": "Pranger-Prügel",
+      "evolution_id": "weapon_wild_slice",
+      "evolution_name": "Wilder Wurstschnitt",
+      "requires_passive": "max_health"
+    },
+    {
+      "id": "weapon_steel_tempest",
+      "original": "Steel Tempest",
+      "display_name": "Stahl-Sturm-Schnupfen",
+      "evolution_id": "weapon_wandering_winds",
+      "evolution_name": "Wanderwürste des Windes",
+      "requires_passive": "crit_chance"
+    },
+    {
+      "id": "weapon_bunny_hop",
+      "original": "Bunny Hop",
+      "display_name": "Hoppel-Havoc",
+      "evolution_id": "weapon_carrot_crash",
+      "evolution_name": "Karotten-Katastrophe",
+      "requires_passive": "movement_speed"
+    },
+    {
+      "id": "weapon_guiding_hex",
+      "original": "Guiding Hex",
+      "display_name": "Gezielte Verklecksung",
+      "evolution_id": "weapon_boosted_hex",
+      "evolution_name": "Aufgeputschte Verklecksung",
+      "requires_passive": "exp_gain"
+    },
+    {
+      "id": "weapon_winged_dagger",
+      "original": "Winged Dagger",
+      "display_name": "Flatter-Flitsche",
+      "evolution_id": "weapon_lovers_ricochet",
+      "evolution_name": "Liebes-Luftkuss-Rikoschett",
+      "requires_passive": "pickup_radius"
+    }
+  ],
+  "passives": [
+    {
+      "id": "ability_haste",
+      "original": "Fähigkeitstempo",
+      "display_name": "Spam-Geschwindigkeit",
+      "value_per_level": "+10 Fähigkeitstempo"
+    },
+    {
+      "id": "area_size",
+      "original": "Flächengröße",
+      "display_name": "Flächen-Fettleibigkeit",
+      "value_per_level": "+11% Flächengröße"
+    },
+    {
+      "id": "armor",
+      "original": "Rüstung",
+      "display_name": "Blechbauch",
+      "value_per_level": "+8 Rüstung"
+    },
+    {
+      "id": "crit_chance",
+      "original": "Kritische Trefferchance",
+      "display_name": "Glückstreffer-Gurkenglas",
+      "value_per_level": "+8% Krit-Chance"
+    },
+    {
+      "id": "damage",
+      "original": "Schaden",
+      "display_name": "Aua-Faktor",
+      "value_per_level": "+10% Schaden"
+    },
+    {
+      "id": "duration",
+      "original": "Dauer",
+      "display_name": "Nicht-mehr-aufhören",
+      "value_per_level": "+12% Dauer"
+    },
+    {
+      "id": "exp_gain",
+      "original": "Erfahrung",
+      "display_name": "Gehirn-Gummibärchen",
+      "value_per_level": "+10% Erfahrung"
+    },
+    {
+      "id": "health_regen",
+      "original": "Lebensregeneration",
+      "display_name": "Selbstheil-Schnitzel",
+      "value_per_level": "+4 HP/s"
+    },
+    {
+      "id": "max_health",
+      "original": "Maximales Leben",
+      "display_name": "XXL-Pommesvorrat",
+      "value_per_level": "+150 HP"
+    },
+    {
+      "id": "movement_speed",
+      "original": "Lauftempo",
+      "display_name": "Turbo-Treter",
+      "value_per_level": "+9% Lauftempo"
+    },
+    {
+      "id": "pickup_radius",
+      "original": "Aufsammelradius",
+      "display_name": "Staubsauger-Schnauze",
+      "value_per_level": "+35% Aufsammelradius"
+    },
+    {
+      "id": "projectile_count",
+      "original": "Projektilanzahl",
+      "display_name": "Kugel-Klonerei",
+      "value_per_level": "+1 Kugel (Tabelle bis +3)"
+    }
+  ],
+  "augments": [
+    {
+      "id": "augment_armor_up",
+      "original": "Armor Up",
+      "display_name": "Panzer-Panika"
+    },
+    {
+      "id": "augment_bite_sized",
+      "original": "Bite Sized",
+      "display_name": "Häppchen-Hulk"
+    },
+    {
+      "id": "augment_bullet_mania",
+      "original": "Bullet-Mania",
+      "display_name": "Kugel-Kirmes"
+    },
+    {
+      "id": "augment_card_collector",
+      "original": "Card Collector",
+      "display_name": "Karten-Kleptomane"
+    },
+    {
+      "id": "augment_celebration",
+      "original": "Celebration!",
+      "display_name": "Konfetti-Katastrophe!"
+    },
+    {
+      "id": "augment_circle_of_stats",
+      "original": "Circle of Stats",
+      "display_name": "Werte-Walzerei"
+    },
+    {
+      "id": "augment_critical_expansion",
+      "original": "Critical Expansion",
+      "display_name": "Krit-Klops-Wachstum"
+    },
+    {
+      "id": "augment_cross_country",
+      "original": "Cross Country",
+      "display_name": "Querbeet-Quadratlatschen"
+    },
+    {
+      "id": "augment_death_and_taxes",
+      "original": "Death and Taxes",
+      "display_name": "Tod und Taschengeld"
+    },
+    {
+      "id": "augment_ebb_and_flow",
+      "original": "Ebb And Flow",
+      "display_name": "Ebbe und Böllerflut"
+    },
+    {
+      "id": "augment_elite_bomber",
+      "original": "Elite Bomber",
+      "display_name": "Elite-Eierwerfer"
+    },
+    {
+      "id": "augment_emotional_support",
+      "original": "Emotional Support Pet",
+      "display_name": "Therapie-Tier mit Aggression"
+    },
+    {
+      "id": "augment_experienced_fighter",
+      "original": "Experienced Fighter",
+      "display_name": "Veteranen-Vollpfosten"
+    },
+    {
+      "id": "augment_gathering_speed",
+      "original": "Gathering Speed",
+      "display_name": "Tempo-Tornado-Turbo"
+    },
+    {
+      "id": "augment_glass_cannon",
+      "original": "Glass Cannon",
+      "display_name": "Porzellan-Panzerfaust"
+    },
+    {
+      "id": "augment_heavy_hitter",
+      "original": "Heavy Hitter",
+      "display_name": "Schwergewichtiger Schnitzelklopfer"
+    },
+    {
+      "id": "augment_hoarder",
+      "original": "Hoarder",
+      "display_name": "Hamster-Habgier"
+    },
+    {
+      "id": "augment_immobile_immolation",
+      "original": "Immobile Immolation",
+      "display_name": "Stehender Grillkäse"
+    },
+    {
+      "id": "augment_juggernaut",
+      "original": "Juggernaut",
+      "display_name": "Jugger-Joghurt"
+    },
+    {
+      "id": "augment_larger_than_life",
+      "original": "Larger Than Life",
+      "display_name": "Größer als der Döner"
+    },
+    {
+      "id": "augment_long_range",
+      "original": "Long Range",
+      "display_name": "Fernweh-Fernschuss"
+    },
+    {
+      "id": "augment_metabolic_overdrive",
+      "original": "Metabolic Overdrive",
+      "display_name": "Stoffwechsel-Sprint"
+    },
+    {
+      "id": "augment_mission_critical",
+      "original": "Mission Critical",
+      "display_name": "Operation Krit-Kartoffel"
+    },
+    {
+      "id": "augment_pescatarian",
+      "original": "Pescatarian",
+      "display_name": "Fischstäbchen-Fanatiker"
+    },
+    {
+      "id": "augment_pick_me_up",
+      "original": "Pick-Me-Up",
+      "display_name": "Heb-mich-Horst"
+    },
+    {
+      "id": "augment_point_blank",
+      "original": "Point Blank",
+      "display_name": "Null-Abstand-Nudel"
+    },
+    {
+      "id": "augment_ramming_runner",
+      "original": "Ramming Runner",
+      "display_name": "Rennender Rammler"
+    },
+    {
+      "id": "augment_regenerative_tissue",
+      "original": "Regenerative Tissue",
+      "display_name": "Wieder-Wachs-Waffel"
+    },
+    {
+      "id": "augment_size_scrambler",
+      "original": "Size Scrambler",
+      "display_name": "Größen-Gulasch"
+    },
+    {
+      "id": "augment_spray_and_pray",
+      "original": "Spray and Pray",
+      "display_name": "Sprühen und Spaghetti"
+    },
+    {
+      "id": "augment_ultimate_speed_up",
+      "original": "Ultimate Speed-Up",
+      "display_name": "Ulti-Ulk-Turbo"
+    },
+    {
+      "id": "augment_uptime_upgrade",
+      "original": "Uptime Upgrade",
+      "display_name": "Extra-langer Eierlauf"
+    },
+    {
+      "id": "augment_with_haste",
+      "original": "With Haste",
+      "display_name": "Hektik-Hamster"
+    }
+  ],
+  "shop_upgrades": [
+    {
+      "id": "damage",
+      "original": "Schaden",
+      "display_name": "Schmerzschraube",
+      "max_level": 8
+    },
+    {
+      "id": "armor",
+      "original": "Rüstung",
+      "display_name": "Panzer-Paprika",
+      "max_level": 5
+    },
+    {
+      "id": "max_health",
+      "original": "Maximales Leben",
+      "display_name": "Überlebens-Ufo",
+      "max_level": 5
+    },
+    {
+      "id": "health_regen",
+      "original": "Lebensregeneration",
+      "display_name": "Heil-Hefe",
+      "max_level": 5
+    },
+    {
+      "id": "movement_speed",
+      "original": "Lauftempo",
+      "display_name": "Flotte Flossen",
+      "max_level": 4
+    },
+    {
+      "id": "pickup_radius",
+      "original": "Aufsammelradius",
+      "display_name": "Sammelschnorchel",
+      "max_level": 3
+    },
+    {
+      "id": "area_size",
+      "original": "Flächengröße",
+      "display_name": "Flächen-Fladen",
+      "max_level": 4
+    },
+    {
+      "id": "duration",
+      "original": "Dauer",
+      "display_name": "Dauer-Döner",
+      "max_level": 4
+    },
+    {
+      "id": "crit_chance",
+      "original": "Kritische Trefferchance",
+      "display_name": "Krit-Krümel",
+      "max_level": 4
+    },
+    {
+      "id": "ability_haste",
+      "original": "Fähigkeitstempo",
+      "display_name": "Spam-Spindel",
+      "max_level": 5
+    },
+    {
+      "id": "exp_gain",
+      "original": "Erfahrung",
+      "display_name": "Hirnschmalz-Hantel",
+      "max_level": 5
+    },
+    {
+      "id": "projectile_count",
+      "original": "Projektilanzahl",
+      "display_name": "Kugel-Kopierer",
+      "max_level": 2
+    },
+    {
+      "id": "gold_multiplier",
+      "original": "Goldmultiplikator",
+      "display_name": "Dublonen-Doppler",
+      "max_level": 3
+    },
+    {
+      "id": "boon_duration",
+      "original": "Dauer des Kampfhäschen-Bonus",
+      "display_name": "Bonus-Befristungsbruch",
+      "max_level": 2
+    },
+    {
+      "id": "anima_power",
+      "original": "Anima Power",
+      "display_name": "Knallkraft 100",
+      "max_level": 100
+    }
+  ],
+  "temporary_bonuses": [
+    {
+      "id": "bonus_kart",
+      "original": "Anima Super Car",
+      "display_name": "Knall-Kartoffel-Kart"
+    },
+    {
+      "id": "bonus_gun",
+      "original": "Battle Feline Gun Improver",
+      "display_name": "Katzen-Kaliber-Kur"
+    },
+    {
+      "id": "bonus_cruise",
+      "original": "Cruise Control",
+      "display_name": "Autopilot-Achterbahn"
+    },
+    {
+      "id": "bonus_fired_up",
+      "original": "Fired Up",
+      "display_name": "Feuriger Furzmodus"
+    },
+    {
+      "id": "bonus_health_back",
+      "original": "Health Back Healthpack",
+      "display_name": "Heil-Heimzahlung"
+    },
+    {
+      "id": "bonus_pickpocketing",
+      "original": "Primordian Pickpocketing",
+      "display_name": "Urzeit-Urlaubskasse"
+    },
+    {
+      "id": "bonus_squad_shield",
+      "original": "Squad Shield",
+      "display_name": "Team-Tupperdeckel"
+    },
+    {
+      "id": "bonus_stopwaves",
+      "original": "Stopwaves",
+      "display_name": "Stoppwellen-Stullen"
+    },
+    {
+      "id": "bonus_rapid_fire",
+      "original": "Ultra Rapid Fire-r",
+      "display_name": "Turbogeballer Ultra-Ungesund"
+    }
+  ],
+  "maps": [
+    {
+      "id": "map_warehouse",
+      "original": "Warehouse District",
+      "display_name": "Warenhaus-Wahnsinn",
+      "boss": "Urzeit-Rexi",
+      "mechanic": "Heiliger Ketchupbrunnen"
+    },
+    {
+      "id": "map_outskirts",
+      "original": "The Outskirts",
+      "display_name": "Außen-Kekse",
+      "boss": "Ur-Brioche",
+      "mechanic": "Ionen-Irrsinn & Böller-Batterie"
+    },
+    {
+      "id": "map_lab",
+      "original": "Subterranean Lab",
+      "display_name": "Untergrund-Laberatorium",
+      "boss": "Bella-Viech Prime",
+      "mechanic": "Tiefkühl-Tofu-Torpedo"
+    },
+    {
+      "id": "map_beach",
+      "original": "The Beachhead",
+      "display_name": "Badestrand des Verderbens",
+      "boss": "Aua-Trox, der Endgegner",
+      "mechanic": "Brühe des Grauens"
+    }
+  ],
+  "release_scope": {
+    "maps": [
+      "map_warehouse"
+    ],
+    "difficulties": [
+      "story",
+      "hard",
+      "extreme"
+    ],
+    "players": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "save_schema": 4,
+    "note": "Weitere Karten in diesem Inventar sind interne Entwicklungsressourcen; die normale Spielauswahl enthält nur Karte 1."
+  }
+}

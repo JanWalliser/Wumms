@@ -1,0 +1,21 @@
+{
+  "method": "Built-in image_gen tool",
+  "date": "2026-10-24",
+  "assets": [
+    {
+      "path": "assets/ui/swarm/characters/abilities.png",
+      "prompt": "Use case: stylized-concept. Asset: production game HUD ability icon atlas, single square sheet, exactly 4 columns by 6 rows of 24 equal square painted icons, no margins between cells, no text, no letters. Polished hand-painted fantasy game UI, dark navy backgrounds, crisp readable glowing subjects. Exact row-major content: row1 pink musical protective sound shell; pink musical encore shockwave; pink triple musical echo notes; golden knight eclipse shield. row2 golden solar flare meteor; golden sun mark; purple tentacle fist; purple sea tentacle eruption. row3 purple healing tentacle sigil; crimson rabbit berserk claws; crimson divebomb crater; crimson bleeding heart. row4 turquoise swordsman dash; turquoise wind wall; turquoise double critical swords; orange carrot knight shield dash. row5 orange giant crescent slash; orange three charged runes; violet rabbit spirit veil; violet circular spirit portal. row6 violet three spirit motes; silver feather recall; silver feather storm; silver feather quill emblem. Each cell a DIFFERENT distinct ability symbol with controlled glow and rich dimensional rendering. No character portraits, no lettering, no grids drawn on top. Exact uniform grid essential for slicing.",
+      "transparent_background": false
+    },
+    {
+      "path": "assets/actors/animated/seraföhn-sheet.png",
+      "prompt": "Use case: stylized-concept. Production isometric action survival RPG sprite atlas on genuinely transparent background. Exactly 4 columns and 3 rows of equally sized square cells, all 12 characters isolated with generous 15% empty cell padding. Same original character in all 12 cells: original petite rabbit-eared pop singer mage with flowing pink hair, turquoise and pink stage outfit, small floating musical microphone staff; no gun, no humanoid sexualization. Camera elevated 55 degrees, facing southeast in every frame, feet at consistent ground baseline, character size identical. Row 1 four subtle idle breathing frames. Row 2 four consecutive distinct walking frames showing alternate feet and arm swing. Row 3 four consecutive attack/cast frames, windup, release, follow-through, recovery. Fully rendered polished colorful painterly 3D game art with readable silhouettes and clean material highlights. NO floor, NO ground shadows, NO scenery, NO labels, NO text, NO borders, NO detached particles outside cells. Fixed scale and alignment crucial for animation. Atlas is square and every cell is width/4 and height/3.",
+      "transparent_background": true
+    },
+    {
+      "path": "assets/actors/animated/löwina-sheet.png",
+      "prompt": "Use case: stylized-concept. Production isometric action survival RPG sprite atlas on genuinely transparent background. Exactly 4 columns and 3 rows of equally sized square cells, all 12 characters isolated with generous 15% empty cell padding. Same original character in all 12 cells: original sturdy rabbit-eared sun knight in elegant gold and white armor with round golden sun shield and short glowing sword, warm auburn hair. Camera elevated 55 degrees, facing southeast in every frame, feet at consistent ground baseline, character size identical. Row 1 four subtle idle breathing frames. Row 2 four consecutive distinct walking frames showing alternate feet and arm swing. Row 3 four consecutive attack/cast frames, windup, release, follow-through, recovery. Fully rendered polished colorful painterly 3D game art with readable silhouettes and clean material highlights. NO floor, NO ground shadows, NO scenery, NO labels, NO text, NO borders, NO detached particles outside cells. Fixed scale and alignment crucial for animation. Atlas is square and every cell is width/4 and height/3.",
+      "transparent_background": true
+    }
+  ]
+}

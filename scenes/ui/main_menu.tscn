@@ -1,0 +1,110 @@
+[gd_scene load_steps=2 format=3 uid="uid://cmainmenu001"]
+
+[ext_resource type="Script" path="res://scripts/ui/main_menu.gd" id="1_script"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_script")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.08, 0.09, 0.13, 1)
+
+[node name="HeaderContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -500.0
+offset_top = 80.0
+offset_right = 500.0
+offset_bottom = 220.0
+grow_horizontal = 2
+theme_override_constants/separation = 10
+
+[node name="TitleLabel" type="Label" parent="HeaderContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.8, 0.15, 1)
+theme_override_font_sizes/font_size = 54
+text = "WUMMS"
+horizontal_alignment = 1
+
+[node name="SubtitleLabel" type="Label" parent="HeaderContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.9, 0.3, 0.6, 1)
+theme_override_font_sizes/font_size = 28
+text = "OPERATION KNALL-KARTOFFEL"
+horizontal_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -140.0
+offset_right = 200.0
+offset_bottom = 380.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 12
+
+[node name="PlayButton" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(400, 50)
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "SPIELEN"
+
+[node name="ProfileButton" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(400, 45)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "PROFIL WÄHLEN"
+
+[node name="UpgradesButton" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(400, 45)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "UPGRADES (SHOP)"
+
+[node name="CharactersButton" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(400, 45)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "CHARAKTERE"
+
+[node name="QuestsButton" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(400, 45)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "FREISCHALTUNGEN (QUESTS)"
+
+[node name="StatsButton" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(400, 45)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "STATISTIKEN"
+
+[node name="SettingsButton" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(400, 45)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "EINSTELLUNGEN"
+
+[node name="QuitButton" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(400, 45)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "BEENDEN"

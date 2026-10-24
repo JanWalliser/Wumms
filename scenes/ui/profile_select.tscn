@@ -1,0 +1,89 @@
+[gd_scene load_steps=2 format=3 uid="uid://cprofileselect001"]
+
+[ext_resource type="Script" path="res://scripts/ui/profile_select.gd" id="1_script"]
+
+[node name="ProfileSelect" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_script")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.08, 0.08, 0.12, 1)
+
+[node name="TopBar" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 70.0
+grow_horizontal = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TopBar"]
+layout_mode = 2
+theme_override_constants/separation = 30
+
+[node name="BackButton" type="Button" parent="TopBar/HBoxContainer"]
+custom_minimum_size = Vector2(140, 44)
+layout_mode = 2
+size_flags_vertical = 4
+text = "ZURÜCK"
+
+[node name="TitleLabel" type="Label" parent="TopBar/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 0.8, 0.2, 1)
+theme_override_font_sizes/font_size = 24
+text = "SPIELERPROFILE VERWALTEN"
+horizontal_alignment = 1
+
+[node name="CreatePanel" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -300.0
+offset_top = 85.0
+offset_right = 300.0
+offset_bottom = 145.0
+grow_horizontal = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CreatePanel"]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="NameInput" type="LineEdit" parent="CreatePanel/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+placeholder_text = "Neuer Profilname..."
+
+[node name="CreateButton" type="Button" parent="CreatePanel/HBoxContainer"]
+custom_minimum_size = Vector2(140, 0)
+layout_mode = 2
+text = "PROFIL ERSTELLEN"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = 13
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -350.0
+offset_top = 165.0
+offset_right = 350.0
+offset_bottom = -30.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ProfileList" type="VBoxContainer" parent="ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 12

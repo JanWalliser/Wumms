@@ -1,0 +1,134 @@
+{
+  "ability_haste": {
+    "spell": "Augment_Stat_AbilityHaste",
+    "values": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0
+    ]
+  },
+  "area_size": {
+    "spell": "Augment_Stat_AoeSize",
+    "values": [
+      0.0,
+      0.11,
+      0.22,
+      0.33,
+      0.44,
+      0.55
+    ]
+  },
+  "armor": {
+    "spell": "Augment_Stat_Armor",
+    "values": [
+      0.0,
+      8.0,
+      16.0,
+      24.0,
+      32.0,
+      40.0
+    ]
+  },
+  "crit_chance": {
+    "spell": "Augment_Stat_CritChance",
+    "values": [
+      0.0,
+      0.08,
+      0.16,
+      0.24,
+      0.32,
+      0.4
+    ]
+  },
+  "damage": {
+    "spell": "Augment_Stat_DamagePercent",
+    "values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ]
+  },
+  "duration": {
+    "spell": "Augment_Stat_Duration",
+    "values": [
+      0.0,
+      0.12,
+      0.24,
+      0.36,
+      0.48,
+      0.6
+    ]
+  },
+  "exp_gain": {
+    "spell": "Augment_Stat_Exp",
+    "values": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ]
+  },
+  "health_regen": {
+    "spell": "Augment_Stat_HealthRegen",
+    "values": [
+      0.0,
+      4.0,
+      8.0,
+      12.0,
+      16.0,
+      20.0
+    ]
+  },
+  "max_health": {
+    "spell": "Augment_Stat_MaxHealth",
+    "values": [
+      0.0,
+      150.0,
+      300.0,
+      450.0,
+      600.0,
+      750.0
+    ]
+  },
+  "movement_speed": {
+    "spell": "Augment_Stat_Movespeed",
+    "values": [
+      0.0,
+      0.09,
+      0.18,
+      0.27,
+      0.36,
+      0.45
+    ]
+  },
+  "pickup_radius": {
+    "spell": "Augment_Stat_PickupRadius",
+    "values": [
+      0.0,
+      0.35,
+      0.7,
+      1.05,
+      1.4,
+      1.75
+    ]
+  },
+  "projectile_count": {
+    "spell": "Augment_Stat_ProjectileCount",
+    "values": [
+      0.0,
+      1.0,
+      1.0,
+      2.0,
+      2.0,
+      3.0
+    ]
+  }
+}

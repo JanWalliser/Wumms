@@ -1,0 +1,6 @@
+{
+  "method": "Built-in image_gen tool",
+  "asset": "assets/actors/animated/löwina-sheet.png",
+  "prompt": "Create a clean production sprite sheet of one cute rabbit-eared female sun knight, brown hair, golden white armor, small round sun shield and SHORT one-handed sword. Genuine transparent background. EXACT 4 columns x 3 rows, 12 equal-sized rectangular cells. IMPORTANT EACH KNIGHT MUST BE VERY SMALL INSIDE ITS CELL, occupying only the central 55% of cell width and central 70% of cell height. Leave HUGE blank transparent gutters around every character. Each has same fixed scale. NO SLASH TRAILS, NO GLOW TRAILS, NO PARTICLES, NO WIDE SWINGS. A small short sword remains very close to the body in ALL poses. Elevated isometric view facing southeast. Row1 four breathing idle frames. Row2 four walking frames with alternating feet. Row3 four restrained close-body short-sword thrust frames, ready, thrust forward, followthrough, recover. Render polished painterly 3D videogame character art, sharp readable gold armor. All twelve full bodies fully visible and isolated. Do not draw grid lines or text. This sheet will be cut at exact quarter-width and third-height boundaries.",
+  "reason": "Final selected atlas replaces the earlier wide sword-swing version; complete isolated frames."
+}

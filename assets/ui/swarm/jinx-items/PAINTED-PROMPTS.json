@@ -1,0 +1,383 @@
+{
+  "mode": "Built-in imagegen, no CLI/API",
+  "assets": [
+    {
+      "id": "weapon_ani_mines",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-828703c3-9568-4868-aef8-991c8224a630.png",
+      "destination": "assets/ui/swarm/jinx-items/weapon_ani_mines-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: three small pink and gold spiked spherical timed landmines with cyan lights. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "weapon_anti_shark",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-bbb539d2-0e98-4998-b24c-d722ac63c367.png",
+      "destination": "assets/ui/swarm/jinx-items/weapon_anti_shark-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: one large navy steel naval sea mine with silver spikes and cyan porthole, tiny shark fin. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "weapon_crossbow",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-74ddce0a-9e35-4560-a53c-8eb9447721dc.png",
+      "destination": "assets/ui/swarm/jinx-items/weapon_crossbow-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: gold and teal rabbit-themed double-limbed crossbow firing a silver bolt. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "weapon_blade_o_rang",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-2333c7df-cdfb-49ef-9f5d-ead8ca3bfbb0.png",
+      "destination": "assets/ui/swarm/jinx-items/weapon_blade_o_rang-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: one angular crescent steel boomerang with purple luminous cutting edge. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "weapon_mega_blast",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-24eab5cd-3032-454f-acdd-84026a6b07b8.png",
+      "destination": "assets/ui/swarm/jinx-items/weapon_mega_blast-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: one gold pink orbital cannon beacon beneath a huge orange descending star explosion. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "weapon_batblades",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-044e0c9a-44c1-490b-909f-32e390384ea9.png",
+      "destination": "assets/ui/swarm/jinx-items/weapon_batblades-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a single bat-shaped violet steel throwing blade with sharp wings. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "weapon_transit",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-6ed23f74-18e8-4b5f-9956-eb9a76a58805.png",
+      "destination": "assets/ui/swarm/jinx-items/weapon_transit-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a chunky futuristic navy gold train locomotive with cyan headlights. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "weapon_iceblast",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-e164e154-33f3-4775-9a54-5726efbae80d.png",
+      "destination": "assets/ui/swarm/jinx-items/weapon_iceblast-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: an ornate steel ice shield with large sharp cyan ice crystals. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "weapon_lioness",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-9c8b86c4-cbb3-4143-8d03-ef641bb5ddb4.png",
+      "destination": "assets/ui/swarm/jinx-items/weapon_lioness-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a golden crescent moon blade enclosing a glowing white star. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "weapon_paw_poison",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-b15bb470-e64a-496b-becb-04e5364f0c04.png",
+      "destination": "assets/ui/swarm/jinx-items/weapon_paw_poison-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a lime green luminous poison vial with mechanical paw-print nozzle and violet toxic droplets. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "weapon_radiant_field",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-742b93ac-3780-4928-8d7c-e9795504975f.png",
+      "destination": "assets/ui/swarm/jinx-items/weapon_radiant_field-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a polished purple gold circular emitter radiating cyan concentric rings. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "weapon_shortbow",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-4d77aadf-2678-4489-bb91-dbc453023d1f.png",
+      "destination": "assets/ui/swarm/jinx-items/weapon_shortbow-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a gold shortbow drawing a flaming orange arrow with a glowing ember point. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "weapon_statikk",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-934d9f75-5cac-4c1b-a205-bb18d258087f.png",
+      "destination": "assets/ui/swarm/jinx-items/weapon_statikk-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a silver sword crackling with violet blue lightning. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "weapon_tibbers",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-8ad66fb3-5fee-46ea-9563-4a32555c116d.png",
+      "destination": "assets/ui/swarm/jinx-items/weapon_tibbers-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a chunky gold steel battle teddy bear with cyan eyes and orange claws. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "weapon_annihilator",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-6745df64-8077-45d0-8e54-0706e9e34dfe.png",
+      "destination": "assets/ui/swarm/jinx-items/weapon_annihilator-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a gold pineapple-shaped orbital warhead with green metal leaf fins and orange energy. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "weapon_vortex_glove",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-1f1ed0c0-84f2-457f-a6e3-73a18c323152.png",
+      "destination": "assets/ui/swarm/jinx-items/weapon_vortex_glove-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a silver navy gauntlet gripping a swirling blue violet miniature vortex. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "weapon_yuumibot",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-f7240685-f121-46bd-a2e9-3062d0c612b1.png",
+      "destination": "assets/ui/swarm/jinx-items/weapon_yuumibot-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a cute hovering pink cat-face robot with gold ears and cyan propulsion. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "max_health",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-dc14d4bf-8c94-401c-8055-28a10f6d3940.png",
+      "destination": "assets/ui/swarm/jinx-items/max_health-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a large ruby-red crystal heart enclosed by gold steel armor. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "armor",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-3384ff42-be93-4218-be26-62ee267c8fb4.png",
+      "destination": "assets/ui/swarm/jinx-items/armor-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a thick sculpted silver blue shield with gold rivets. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "health_regen",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-ea8e7be1-8eb3-43b4-809b-9019523be620.png",
+      "destination": "assets/ui/swarm/jinx-items/health_regen-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a glowing emerald medical cross made of layered healing crystals. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "movement_speed",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-d82c2f49-f437-4512-9e44-1a13541942eb.png",
+      "destination": "assets/ui/swarm/jinx-items/movement_speed-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: one futuristic armored cyan boot with gold heel jets and a short trail. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "crit_chance",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-752255bc-d8e4-4a8d-a44d-776fc80f51af.png",
+      "destination": "assets/ui/swarm/jinx-items/crit_chance-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a gold mechanical targeting scope with a bright orange crosshair and star glint. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "damage",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-788ff3fe-ea22-49b3-bae0-458f2ac3fea7.png",
+      "destination": "assets/ui/swarm/jinx-items/damage-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: three sweeping steel claws glowing red at their cutting edges. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "ability_haste",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-d86b79f0-73b2-40f2-82df-7c2ab5f7e2c7.png",
+      "destination": "assets/ui/swarm/jinx-items/ability_haste-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a gold steel stopwatch with luminous blue hands and gears. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "duration",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-c9d58281-998d-4b1e-9bc5-46ddd6a9c390.png",
+      "destination": "assets/ui/swarm/jinx-items/duration-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: an ornate violet gold hourglass filled with glowing pink magical sand. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "area_size",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-9fe49793-09cd-4b5b-884f-0886d257f49b.png",
+      "destination": "assets/ui/swarm/jinx-items/area_size-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a central purple crystal emitter with four gold expansion arrows and luminous cyan rings. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "projectile_count",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-846da1d0-6a5e-4a6a-bfad-35824545491f.png",
+      "destination": "assets/ui/swarm/jinx-items/projectile_count-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: three separate gold cartridges with sharp silver cyan tips in a fan. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "exp_gain",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-aa9db0b7-7286-4709-b1bf-cb55442450cb.png",
+      "destination": "assets/ui/swarm/jinx-items/exp_gain-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: an open navy gold spellbook with glowing blue pages and floating small crystals. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "pickup_radius",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-4a85aeee-0c52-4508-8f5e-448e3c275afa.png",
+      "destination": "assets/ui/swarm/jinx-items/pickup_radius-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a thick silver violet horseshoe magnet attracting three golden coins. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_armor_up",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-d2ab4d9e-fa3d-4b19-a0f4-bd8f6d08c81a.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_armor_up-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a reinforced steel shield with layered extra armor plates. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_bite_sized",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-bd493890-948c-4389-8f99-f5046a608271.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_bite_sized-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a tiny gold teddy fighter beside a huge armored boot, a miniature-strength potion. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_bullet_mania",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-159408a8-7975-409f-be53-ec98530aaea0.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_bullet_mania-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a fan of six gold cyan cartridges bursting from an ammo drum. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_card_collector",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-837811db-6934-491c-8578-47f835c19410.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_card_collector-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: three ornate gold access cards stacked with a red gem seal. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_celebration",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-4cebdb16-b883-4027-aaa6-4d585e92989d.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_celebration-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a golden party popper exploding with pink cyan confetti and a star. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_circle_of_stats",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-a1ddc7c4-83bf-47e3-aa9c-49021a8bb81b.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_circle_of_stats-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a golden circular mechanism with five differently colored crystal gems. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_critical_expansion",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-431357e0-586d-49f2-9a5e-bdf6dfe878bb.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_critical_expansion-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a gold targeting reticle expanding outward through violet energy rings. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_cross_country",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-e3c2fa5d-5a99-4654-a1c0-7c957537efb3.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_cross_country-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a futuristic hiking boot crossing a tiny gold compass and green trail. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_death_and_taxes",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-3b01c9dc-365f-4433-98ff-95dd42d4d995.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_death_and_taxes-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a silver skull biting a golden coin next to a closed ledger. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_ebb_and_flow",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-b07365c0-a8c5-4893-8585-a556e243f106.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_ebb_and_flow-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a blue crystal wave curling around a gold stopwatch. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_elite_bomber",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-70e8dbd3-edb3-4d27-9d69-6ebb05809d0b.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_elite_bomber-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: an elaborate gold steel spiked bomb with a red elite insignia and orange fuse. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_emotional_support",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-a1d2ebb5-d14b-4105-9585-c27fe21c722b.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_emotional_support-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a cute armored gold teddy holding a glowing pink heart. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_experienced_fighter",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-b36a80c9-cec7-434b-8f06-d4c52dc6c687.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_experienced_fighter-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: an open gold-edged book crossed with a silver veteran's blade. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_gathering_speed",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-879f7ac7-8643-40ad-bef5-faa648bb978d.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_gathering_speed-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a cyan armored boot inside a whirling golden stopwatch ring. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_glass_cannon",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-d6a5a433-ff07-41d1-9c2e-130a512e7309.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_glass_cannon-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a transparent crystal cannon with a pink glowing core, delicate cracked glass. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_heavy_hitter",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-64248777-8379-4948-b4db-09b2a79ad1e8.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_heavy_hitter-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a giant gold steel warhammer with purple heavy energy. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_hoarder",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-e658c4a0-72fd-4fcd-a883-663c6f9040ee.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_hoarder-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a heap of gold coins with an emerald healing gem. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_immobile_immolation",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-a3738ef7-a222-4a7e-aa8f-0635b7ae2329.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_immobile_immolation-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a steel boot rooted to the ground and wreathed in orange flame. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_juggernaut",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-b33eae39-ba51-4916-a520-a0ffd76e4af7.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_juggernaut-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a very thick steel gold breastplate with red impact scratches. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_larger_than_life",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-27ce5ebe-052f-4a14-b618-aa59dabc7183.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_larger_than_life-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a giant armored gold teddy rising over a miniature skyline. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_long_range",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-b629fd78-2020-4454-8f34-94135462cfef.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_long_range-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a long silver rifle scope with cyan lens and gold distance marks, no text. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_metabolic_overdrive",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-a9415a67-37d7-4440-8982-8dbd1b437972.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_metabolic_overdrive-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a green crystal heart pumped by tiny gold pistons and cyan energy. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_mission_critical",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-c4f9d2a2-1b91-43a8-959c-a7b23f2d75dd.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_mission_critical-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a pink gold sniper reticle framing a large orange critical-impact star. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_pescatarian",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-04093c22-f24c-4cc0-8346-3bc66b571ed5.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_pescatarian-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a silver blue fish with a small emerald healing cross amulet. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_pick_me_up",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-97aa0b99-9816-4461-83f7-00b039982d53.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_pick_me_up-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a purple gold horseshoe magnet around a glowing blue stopwatch. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_point_blank",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-f1b8cda1-fe15-43bb-abd6-6200665e0a89.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_point_blank-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a short silver pistol pressed close to a gold target with red impact flash. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_ramming_runner",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-cadcda07-5890-434e-927f-b92d7ca229fc.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_ramming_runner-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a heavy gold armored boot with a battering-ram steel toe and orange trail. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_regenerative_tissue",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-87358b23-6e43-43fa-8368-c3ddf329a2f5.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_regenerative_tissue-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a soft emerald healing leaf woven around a silver medical cross. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_size_scrambler",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-5146ed78-f1cc-4f7d-8c0a-fca6296ea069.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_size_scrambler-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a purple crystal prism distorting two concentric cyan energy rings. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_spray_and_pray",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-2de8b294-9345-4133-8c91-1f0dee954fff.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_spray_and_pray-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a steel ammo drum spraying multiple gold cartridges around a small praying hand emblem. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_ultimate_speed_up",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-940d31b9-964b-4332-93b2-82dbba8d9afe.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_ultimate_speed_up-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a white pink shark rocket crossed with a gold blue stopwatch. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_uptime_upgrade",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-b5340fab-933e-4c65-881b-2950dfbbb1ea.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_uptime_upgrade-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a violet gold hourglass with upward cyan energy arrows. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "augment_with_haste",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-b73fca03-8dd2-4907-9f73-7a2368f5e153.png",
+      "destination": "assets/ui/swarm/jinx-items/augment_with_haste-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a gold stopwatch with tiny winged cyan steel boots. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    },
+    {
+      "id": "jinx_passive",
+      "source": "C:\\Users\\jandw\\.codex\\generated_images\\01a16358-5b9b-7721-9c6d-6e7cee600707\\exec-947cd58b-8ea6-43c9-a04d-bb2a5f0f3419.png",
+      "destination": "assets/ui/swarm/jinx-items/jinx_passive-painted.png",
+      "prompt": "Production square inventory icon for a polished hand-painted sci-fi action RPG. Subject: a hot pink crystal heart with an electric cyan lightning bolt, frantic energy sparks. One clear iconic composition, sculpted dimensional materials, detailed colored surfaces, strong readable silhouette at 40 pixels, realistic painted highlights and deep shadows. Cyan magenta gold and navy visual family. Subject fills 80 percent of square with small comfortable margin. Rich deep navy painted vignette background. Finished illustrated game artwork, NOT a line drawing, NOT flat vector shapes, NOT a sketch. No text, letters, numbers, logo, border, UI or watermarks."
+    }
+  ]
+}

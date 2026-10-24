@@ -1,0 +1,82 @@
+{
+  "7": {
+    "file": "custom/prop-7.res",
+    "world_center": [
+      1318.58625,
+      121.69385
+    ],
+    "guide_anchor": [
+      512,
+      550
+    ],
+    "world_per_guide_pixel": 0.5590269736842105,
+    "guide_size": [
+      1024,
+      1024
+    ]
+  },
+  "8": {
+    "file": "custom/prop-8.res",
+    "world_center": [
+      895.14625,
+      187.2374
+    ],
+    "guide_anchor": [
+      512,
+      550
+    ],
+    "world_per_guide_pixel": 0.5032461842105262,
+    "guide_size": [
+      1024,
+      1024
+    ]
+  },
+  "9": {
+    "file": "custom/prop-9.res",
+    "world_center": [
+      961.86195,
+      798.83875
+    ],
+    "guide_anchor": [
+      512,
+      550
+    ],
+    "world_per_guide_pixel": 0.5545667105263156,
+    "guide_size": [
+      1024,
+      1024
+    ]
+  },
+  "10": {
+    "file": "custom/prop-10.res",
+    "world_center": [
+      475.89605,
+      523.0614499999999
+    ],
+    "guide_anchor": [
+      512,
+      550
+    ],
+    "world_per_guide_pixel": 0.5401682894736841,
+    "guide_size": [
+      1024,
+      1024
+    ]
+  },
+  "26": {
+    "file": "custom/prop-26.res",
+    "world_center": [
+      -768.22845,
+      14.490099999999998
+    ],
+    "guide_anchor": [
+      512,
+      550
+    ],
+    "world_per_guide_pixel": 0.49201578947368424,
+    "guide_size": [
+      1024,
+      1024
+    ]
+  }
+}

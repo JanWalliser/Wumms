@@ -1,0 +1,17 @@
+{
+  "actor_scale": 0.55,
+  "player_movement_scale": 0.342,
+  "reference": "Movement scale reduced from 0.38 to 0.342 (-10%) for players and enemies at user request. Enemy artwork enlarged by 10%, independently of actor collision scale and Jinx art.",
+  "fountain": {
+    "basin_center_pixels": [
+      695,
+      760
+    ],
+    "basin_width_pixels": 550,
+    "basin_width_world": 330,
+    "note": "Core-only sprite; original ground texture supplies the only broad circular stone plinth. Uniform scaling, no collision clipping. Floor plinth source center corrected to [510,474] for alignment of its actual circular rim."
+  },
+  "ground_projection_y": 0.72,
+  "projection_note": "Oblique orthographic 2.5D ground projection; actor sprites counter-scale vertically. Simulation remains in original map coordinates.",
+  "enemy_visual_scale": 1.1
+}
